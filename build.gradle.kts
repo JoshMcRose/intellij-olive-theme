@@ -1,5 +1,6 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
+import org.jetbrains.intellij.platform.gradle.tasks.SignPluginTask
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -79,13 +80,15 @@ intellijPlatform {
         }
     }
 
-//    signing {
-//
-//    }
-//
-//    publishing {
-//
-//    }
+    signing {
+        certificateChainFile.set(file("/Users/joshrose/chain.crt"))
+        privateKeyFile.set(file("/Users/joshrose/private.pem"))
+        password.set(providers.environmentVariable("PRIVATE_KEY_PASSWORD"))
+    }
+
+    publishing {
+        token = providers.environmentVariable("INTELLIJ_PUBLISHING_TOKEN")
+    }
 }
 
 tasks {
