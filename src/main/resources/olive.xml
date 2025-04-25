@@ -76,11 +76,11 @@
         <option name="NOTIFICATION_BACKGROUND" value="3C4D00" />
         <option name="PROMOTION_PANE" value="46483C" />
         <option name="ANNOTATIONS_COLOR" value="B7D167" />
-        <option name="QUESTION_HINT" value="46483C" />
-        <option name="INFORMATION_HINT" value="46483C" />
-        <option name="TOOLTIP" value="46483C" />
+        <option name="QUESTION_HINT" value="1B1C17" />
+        <option name="INFORMATION_HINT" value="1B1C17" />
+        <option name="TOOLTIP" value="1B1C17" />
 
-        <option name="DOCUMENTATION_COLOR" value="46483C" />
+        <option name="DOCUMENTATION_COLOR" value="1B1C17" />
         <option name="DOC_COMMENT_GUIDE" value="B7D167" />
         <option name="DOC_COMMENT_LINK" value="A1D0C6" />
 
@@ -161,7 +161,7 @@
         <option name="TAB_UNDERLINE" value="B7D167" />
         <option name="TAB_UNDERLINE_INACTIVE" value="3C4D00" />
 
-        <option name="LOOKUP_COLOR" value="3C4D00"/>
+        <option name="LOOKUP_COLOR" value="1B1C17"/>
         <!--<option name="FOLDED_TEXT_BORDER_COLOR" value="222436" />-->
         <!--<option name="DIFF_SEPARATORS_BACKGROUND" value="1e2030" />-->
         <!--<option name="DIFF_SEPARATORS_TOP_BORDER" value="191a2a" />-->

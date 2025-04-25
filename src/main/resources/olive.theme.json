@@ -97,7 +97,7 @@
             "arc": "7",
             "foreground": "#7F9AB3",
             "background": "background1",
-            "infoForeground": "foregroundInfo",
+            "infoForeground": "border4",
             "selectionForeground": "foregroundBright1",
             "selectionInactiveForeground": "foregroundBright1",
             "selectionBackground": "#2B2D3B",
@@ -187,7 +187,7 @@
         "ComboBoxButton.background": "backgroundAlt",
 
         "CompletionPopup": {
-            "matchForeground": "#fab38e",
+            "matchForeground": "custom1",
             "selectionBackground": "selectionBackgroundAlt1",
             "selectionInactiveBackground": "selectionBackgroundAlt1",
             "selectionInnerInsets.compact": "0,2,0,2"
@@ -388,7 +388,7 @@
         "ToggleButton.onBackground": "#50fa7b90",
         "ToggleButton.onForeground": "foregroundBright1",
 
-        "ToolTip.background": "backgroundAlt",
+        "ToolTip.background": "background1",
         "ToolTip.borderColor": "separatorColor",
         "ToolTip.foreground": "foregroundMain",
 
@@ -405,8 +405,8 @@
         "Tree.hash": "#C7C8B810",
         "Tree.hoverBackground": "hoverBackground",
         "Tree.modifiedItemForeground": "foregroundAlt3",
-        "Tree.selectionBackground": "selectionBackground",
-        "Tree.selectionInactiveBackground": "selectionInactiveBackground",
+        "Tree.selectionBackground": "selectionBackgroundAlt1",
+        "Tree.selectionInactiveBackground": "selectionInactiveBackgroundAlt1",
 
         "ValidationTooltip.errorBackground": "#ff5554",
         "ValidationTooltip.errorBorderColor": "#ff5554",
