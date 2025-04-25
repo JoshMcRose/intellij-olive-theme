@@ -188,8 +188,8 @@
 
         "CompletionPopup": {
             "matchForeground": "#fab38e",
-            "selectionBackground": "#373A4E",
-            "selectionInactiveBackground": "#373A4E",
+            "selectionBackground": "selectionBackgroundAlt1",
+            "selectionInactiveBackground": "selectionBackgroundAlt1",
             "selectionInnerInsets.compact": "0,2,0,2"
         },
 
@@ -231,10 +231,10 @@
         "Label.disabledForeground": "#abb2bf80",
         "Label.errorForeground": "#ff5554",
 
-        "Link.activeForeground": "#6494ed",
-        "Link.hoverForeground": "#6494ed",
-        "Link.pressedForeground": "#6494ed",
-        "Link.visitedForeground": "#6494ed",
+        "Link.activeForeground": "border4",
+        "Link.hoverForeground": "border4",
+        "Link.pressedForeground": "border4",
+        "Link.visitedForeground": "border4",
 
         "List.background": "backgroundAlt",
 
@@ -253,8 +253,12 @@
         "Notification.ToolWindow.warningBackground": "backgroundAlt",
         "Notification.ToolWindow.warningBorderColor": "#ffb86c",
         "Notification.ToolWindow.warningForeground": "foregroundBright1",
-        "Notification.background": "backgroundAlt",
+        "Notification.background": "background",
         "Notification.borderColor": "separatorColor",
+        "Notification.foreground": "foregroundAlt2",
+        "NotificationsToolwindow.newNotification.background": "selectionBackground",
+        "NotificationsToolwindow.newNotification.hoverBackground": "hoverBackground",
+        "NotificationsToolwindow.Notification.hoverBackground": "hoverBackground",
         "Notification.errorBackground": "backgroundAlt",
         "Notification.errorBorderColor": "#ff5554",
         "Notification.errorForeground": "foregroundBright1",
@@ -270,13 +274,13 @@
 
         "PasswordField.background": "backgroundAlt",
 
-        "Plugins.Button.installBorderColor": "#568AF2",
-        "Plugins.Button.installFillBackground": "#568AF2",
-        "Plugins.Button.installFillForeground": "#d8dbe1",
-        "Plugins.Button.installForeground": "#568AF2",
-        "Plugins.Button.updateBackground": "#568AF2",
-        "Plugins.Button.updateBorderColor": "#568AF2",
-        "Plugins.Button.updateForeground": "#d8dbe1",
+        "Plugins.Button.installBorderColor": "selectionBackground",
+        "Plugins.Button.installFillBackground": "selectionBackground",
+        "Plugins.Button.installFillForeground": "foregroundBright1",
+        "Plugins.Button.installForeground": "selectionBackground",
+        "Plugins.Button.updateBackground": "selectionBackground",
+        "Plugins.Button.updateBorderColor": "selectionBackground",
+        "Plugins.Button.updateForeground": "foregroundBright1",
         "Plugins.SearchField.background": "backgroundAlt",
         "Plugins.SectionHeader.background": "#23253080",
         "Plugins.SectionHeader.foreground": "foregroundBright1",
@@ -301,12 +305,12 @@
 
         "PopupMenu.background": "background1",
 
-        "ProgressBar.failedColor": "#ff5554",
-        "ProgressBar.failedEndColor": "#ff5554",
+        "ProgressBar.failedColor": "#FFB4AB",
+        "ProgressBar.failedEndColor": "#FFB4AB",
         "ProgressBar.indeterminateEndColor": "accentColor2",
-        "ProgressBar.indeterminateStartColor": "#93b8f9",
-        "ProgressBar.passedColor": "#50fa7b",
-        "ProgressBar.passedEndColor": "#50fa7b",
+        "ProgressBar.indeterminateStartColor": "foregroundAlt2",
+        "ProgressBar.passedColor": "custom1",
+        "ProgressBar.passedEndColor": "custom1",
         "ProgressBar.progressColor": "accentColor1",
         "ProgressBar.trackColor": "selectionBackground",
 
@@ -389,6 +393,7 @@
         "ToolTip.foreground": "foregroundMain",
 
         "ToolWindow.Button.hoverBackground": "hoverBackground",
+        "ToolWindow.Button.selectedBackground": "selectionBackground",
         "ToolWindow.Header.background": "background1",
         "ToolWindow.Header.inactiveBackground": "background1",
         "ToolWindow.HeaderTab.underlineColor": "custom1",
