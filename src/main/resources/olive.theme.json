@@ -211,7 +211,7 @@
         "DragAndDrop.areaBorderColor": "selectionBackground",
         "DragAndDrop.borderColor": "selectionBackground",
 
-        "Editor.background": "backgroundAlt",
+        "Editor.background": "background1",
         "Editor.shortcutForeground": "custom1",
 
         "EditorTabs.background": "background2",
@@ -272,7 +272,7 @@
         "ParameterInfo.infoForeground": "foregroundInfo",
         "ParameterInfo.lineSeparatorColor": "separatorColor",
 
-        "PasswordField.background": "backgroundAlt",
+        "PasswordField.background": "background1",
 
         "Plugins.Button.installBorderColor": "selectionBackground",
         "Plugins.Button.installFillBackground": "selectionBackground",
@@ -281,7 +281,7 @@
         "Plugins.Button.updateBackground": "selectionBackground",
         "Plugins.Button.updateBorderColor": "selectionBackground",
         "Plugins.Button.updateForeground": "foregroundBright1",
-        "Plugins.SearchField.background": "backgroundAlt",
+        "Plugins.SearchField.background": "background1",
         "Plugins.SectionHeader.background": "#23253080",
         "Plugins.SectionHeader.foreground": "foregroundBright1",
         "Plugins.Tab.hoverBackground": "hoverBackground",
@@ -289,7 +289,7 @@
         "Plugins.Tab.selectedForeground": "foregroundBright1",
         "Plugins.hoverBackground": "hoverBackground",
         "Plugins.lightSelectionBackground": "hoverBackground",
-        "Plugins.tagBackground": "backgroundAlt",
+        "Plugins.tagBackground": "background1",
         "Plugins.tagForeground": "foregroundBright1",
 
         "Popup.Advertiser.background": "background1",
@@ -374,7 +374,7 @@
 
         "TextArea.selectionBackground": "#3C4D00",
 
-        "TextField.background": "backgroundAlt",
+        "TextField.background": "background1",
         "TextField.selectionBackground": "#B7D167A0",
         "TextPane.selectionBackground": "#B7D167A0",
 
