@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/joshmcrose/intellij-olive-theme">
-    <img alt="olive banner" src="">
+    <img alt="olive banner" src="assets/oliveBanner.svg" width="100%">
   </a>
 </p>
 
@@ -35,11 +35,10 @@
 [//]: # (  </a>)
 </p>
 
-<p align="center">A dark, clean, simple and elegant theme for JetBrains IDE.</p>
+<p align="center">A dark theme for IntelliJ IDEA inspired by olives 🍸</p>
 
 <p align="center">
-
-[//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_1_r.png">)
+  <img alt="preview" src="assets/sample.png" width="100%">
 </p>
 
 <!-- Plugin description end -->
@@ -48,7 +47,7 @@
 
 - Using the IDE built-in plugin system:
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Nightfall Theme"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Olive Theme"</kbd> >
   <kbd>Install</kbd>
 
 - Manually:
@@ -83,30 +82,6 @@
 [//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_syntax_4_r.png">)
 
 [//]: # (</p>)
-
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-<!-- Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)): -->
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-
-[//]: # (    <td align="center"><a href="https://github.com/brandii-co"><img src="https://avatars.githubusercontent.com/u/74169522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brandon Coetzee</b></sub></a><br /><a href="https://github.com/brandii-co/jetbrains-nightfall-theme/commits?author=brandii-co" title="Code">💻</a> <a href="https://github.com/brandii-co/jetbrains-nightfall-theme/issues?q=author%3Abrandii-co" title="Bug reports">🐛</a></td>)
-
-[//]: # (    <td align="center"><a href="https://github.com/karlmiles"><img src="https://avatars.githubusercontent.com/u/2984054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karl Miles</b></sub></a><br /><a href="#ideas-karlmiles" title="Ideas, Planning, & Feedback">🤔</a></td>)
-
-[//]: # (    <td align="center"><a href="https://github.com/rodrigojcmello"><img src="https://avatars.githubusercontent.com/u/5174526?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rodrigo</b></sub></a><br /><a href="#ideas-rodrigojcmello" title="Ideas, Planning, & Feedback">🤔</a></td>)
-
-[//]: # (    <td align="center"><a href="https://github.com/Paracells"><img src="https://avatars.githubusercontent.com/u/575811?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paracells</b></sub></a><br /><a href="https://github.com/brandii-co/jetbrains-nightfall-theme/issues?q=author%3AParacells" title="Bug reports">🐛</a> <a href="https://github.com/brandii-co/jetbrains-nightfall-theme/commits?author=Paracells" title="Code">💻</a></td>)
-  </tr>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
