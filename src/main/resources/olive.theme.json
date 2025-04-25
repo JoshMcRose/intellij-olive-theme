@@ -142,18 +142,8 @@
         "windowBorder": "#BFC7D7",
         "windowText": "#43464C",
 
-        "_comment.RunWidget.StopButton.background": "#7B3131",
-        "_comment.RunWidget.StopButton.leftHoverBackground": "#6F2929",
-        "_comment.RunWidget.StopButton.leftPressedBackground": "#651E1E",
-
         "RunWidget.foreground": "#84A5C3",
-        "RunWidget.disabledForeground": "#5B6F81",
-        "RunWidget.background": "#1c1e26",
         "RunWidget.runningBackground": "#30533D",
-        "_comment.RunWidget.hoverBackground": "#D5F757",
-        "_comment.RunWidget.pressedBackground": "#D5F757",
-        "_comment.RunWidget.separatorColor": "#D5F757",
-        "RunWidget.runModeIconColor": "#84A5C3",
         "RunWidget.stopBackground": "#7B3131",
 
 
@@ -196,9 +186,12 @@
 
         "ComboBoxButton.background": "backgroundAlt",
 
-        "CompletionPopup.matchForeground": "#fab38e",
-        "CompletionPopup.selectionBackground": "#373A4E",
-        "CompletionPopup.selectionInactiveBackground": "#373A4E",
+        "CompletionPopup": {
+            "matchForeground": "#fab38e",
+            "selectionBackground": "#373A4E",
+            "selectionInactiveBackground": "#373A4E",
+            "selectionInnerInsets.compact": "0,2,0,2"
+        },
 
         "Component.borderColor": "selectionBackground",
         "Component.disabledBorderColor": "selectionBackground",
@@ -212,7 +205,6 @@
         "Counter.background": "#6c6f9360",
         "Counter.foreground": "foregroundMain",
 
-        "DefaultTabs.inactiveColoredTabBackground": "backgroundAlt",
         "DefaultTabs.inactiveUnderlineColor": "custom2",
 
         "DragAndDrop.areaBackground": "#2e303e60",
@@ -246,8 +238,9 @@
 
         "List.background": "backgroundAlt",
 
-        "Menu.background": "backgroundAlt",
+        "Menu.background": "background1",
         "Menu.borderColor": "border2",
+        "Menu.selectionBackground": "selectionBackgroundAlt1",
 
         "MenuItem.disabledForeground": "#abb2bf80",
 
@@ -382,10 +375,6 @@
         "TextPane.selectionBackground": "#B7D167A0",
 
         "EditorPane.selectionBackground": "#B7D167A0",
-        "_comment.FormattedTextField.selectionBackground": "test1",
-        "_comment.TextPane.selectionBackground": "test2",
-        "_comment.TextArea.background": "test1",
-        "_comment.FormattedTextField.background": "test1",
 
         "TitlePane.inactiveInfoForeground": "foregroundInfo",
 
@@ -396,7 +385,6 @@
         "ToggleButton.onForeground": "foregroundBright1",
 
         "ToolTip.background": "backgroundAlt",
-        "ToolTip.backgroundInactive": "backgroundAlt",
         "ToolTip.borderColor": "separatorColor",
         "ToolTip.foreground": "foregroundMain",
 
@@ -414,8 +402,6 @@
         "Tree.modifiedItemForeground": "foregroundAlt3",
         "Tree.selectionBackground": "selectionBackground",
         "Tree.selectionInactiveBackground": "selectionInactiveBackground",
-
-        "ProjectView.background": "background1",
 
         "ValidationTooltip.errorBackground": "#ff5554",
         "ValidationTooltip.errorBorderColor": "#ff5554",
