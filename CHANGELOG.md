@@ -6,5 +6,5 @@
 
 - initial release
 
-[Unreleased]: https://github.com/coeiico/jetbrains-nightfall-theme/compare/v2.0.0...HEAD
-[1.0.0]: https://github.com/coeiico/jetbrains-nightfall-theme/commits/v1.0.0
+[Unreleased]: https://github.com/JoshMcRose/intellij-olive-theme/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/JoshMcRose/intellij-olive-theme/commits/v1.0.0
