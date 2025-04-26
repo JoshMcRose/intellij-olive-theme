@@ -405,8 +405,8 @@
         "Tree.hash": "#C7C8B810",
         "Tree.hoverBackground": "hoverBackground",
         "Tree.modifiedItemForeground": "foregroundAlt3",
-        "Tree.selectionBackground": "selectionBackgroundAlt1",
-        "Tree.selectionInactiveBackground": "selectionInactiveBackgroundAlt1",
+        "Tree.selectionBackground": "md_theme_dark_onSecondary",
+        "Tree.selectionInactiveBackground": "md_theme_dark_onSecondary",
 
         "ValidationTooltip.errorBackground": "#ff5554",
         "ValidationTooltip.errorBorderColor": "#ff5554",

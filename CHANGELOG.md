@@ -5,6 +5,7 @@
 ## [1.2.0]
 
 - Updates WelcomeScreen colors
+- Update Tree selection colors
 
 ## [1.1.0]
 
