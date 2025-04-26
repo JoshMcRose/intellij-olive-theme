@@ -208,8 +208,8 @@
         "DefaultTabs.inactiveUnderlineColor": "custom2",
 
         "DragAndDrop.areaBackground": "#2e303e60",
-        "DragAndDrop.areaBorderColor": "selectionBackground",
         "DragAndDrop.borderColor": "selectionBackground",
+        "DragAndDrop.rowBackground": "selectionBackgroundAlt1",
 
         "Editor.background": "background1",
         "Editor.shortcutForeground": "custom1",

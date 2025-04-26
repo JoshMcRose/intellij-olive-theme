@@ -6,7 +6,8 @@
 
 - Updates WelcomeScreen colors
 - Update Tree selection colors
-- Adds hover background attributes to EditorTabs.
+- Updates DragAndDrop rowBackground color
+- Adds hover background attributes to EditorTabs
 
 ## [1.1.0]
 
