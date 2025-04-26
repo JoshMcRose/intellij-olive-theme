@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/joshmcrose/intellij-olive-theme">
-    <img alt="olive banner" src="assets/oliveBanner.svg" width="100%">
+    <img alt="olive banner" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/oliveBanner.svg" width="100%">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 <p align="center">A dark theme for IntelliJ IDEA inspired by olives 🍸🫒</p>
 <p align="center">
-  <img alt="preview" src="assets/FullScreenShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot.png">
 </p>
 
 ## Supported Languages and File Types
@@ -51,25 +51,25 @@
 ## Screenshots
 
 <p align="left">
-  <img alt="preview" src="assets/FullScreenShot1.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot1.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="assets/ClassShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/ClassShot.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="assets/FunctionShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FunctionShot.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="assets/XMLShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/XMLShot.png">
 </p>
 
 <!-- markdownlint-restore -->
