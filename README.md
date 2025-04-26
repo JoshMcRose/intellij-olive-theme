@@ -76,4 +76,4 @@
 <!-- prettier-ignore-end -->
 
 ## License
-This library is released under the MIT License. See the LICENSE file for details.
+This plugin is released under the MIT License. See the LICENSE file for details.
