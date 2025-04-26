@@ -9,37 +9,30 @@
 <!-- Plugin description -->
 
 <p align="center">
-
-[//]: # (  <!-- Release version -->)
-
-[//]: # (  <a href="https://plugins.jetbrains.com/plugin/16142-nightfall-theme">)
-
-[//]: # (    <img alt="JetBrains Plugins" src="https://img.shields.io/jetbrains/plugin/v/16142?colorA=232530&label=release&colorB=26BBD9&style=flat">)
-
-[//]: # (  </a>)
-
-[//]: # (  <!-- Downloads -->)
-
-[//]: # (  <a href="https://plugins.jetbrains.com/plugin/16142-nightfall-theme">)
-
-[//]: # (    <img alt="JetBrains plugins" src="https://img.shields.io/jetbrains/plugin/d/16142?colorA=232530&colorB=26BBD9&style=flat">)
-
-[//]: # (  </a>)
-
-[//]: # (  <!-- Rating -->)
-
-[//]: # (  <a href="https://plugins.jetbrains.com/plugin/16142-nightfall-theme">)
-
-[//]: # (    <img alt="JetBrains Plugins" src="https://img.shields.io/static/v1?label=rating&message=4.9/5&colorA=232530&colorB=26BBD9&style=flat">)
-
-[//]: # (  </a>)
+  <!-- Release version -->
+  <a href="">
+    <img alt="JetBrains Plugins" src="https://img.shields.io/jetbrains/plugin/v/16142?colorA=B7D167&label=release&colorB=3C4D00&style=plastic">
+  </a>
 </p>
 
-<p align="center">A dark theme for IntelliJ IDEA inspired by olives 🍸</p>
-
+<p align="center">A dark theme for IntelliJ IDEA inspired by olives 🍸🫒</p>
 <p align="center">
-  <img alt="preview" src="assets/sample.png" width="100%">
+  <img alt="preview" src="assets/FullScreenShot.png">
 </p>
+
+## Supported Languages and File Types
+<ul>
+<li>Kotlin</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>XML</li>
+<li>JSON</li>
+<li>YAML</li>
+<li>TOML</li>
+<li>SQL</li>
+<li>Markdown</li>
+</ul>
+<p>For additional language support, feel free to open an issue.</p>
 
 <!-- Plugin description end -->
 
@@ -52,52 +45,32 @@
 
 - Manually:
 
-[//]: # (  Download the [latest release]&#40;https://github.com/coeiico/jetbrains-nightfall-theme/releases/latest&#41; and install it manually using)
+  Download the [latest release](https://github.com/JoshMcRose/intellij-olive-theme/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 ## Screenshots
 
-[//]: # (<p align="center">)
-
-[//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_2_r.png">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (<p align="center">)
-
-[//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_syntax_1_r.png">)
-
-[//]: # (</p>)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_syntax_3_r.png">)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (<p align="center">)
-
-[//]: # (  <img alt="preview" src="https://raw.githubusercontent.com/brandii-co/jetbrains-nightfall-theme/main/assets/previews/screenshots/preview_syntax_4_r.png">)
-
-[//]: # (</p>)
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<!-- This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! -->
+<p align="left">
+  <img alt="preview" src="assets/FullScreenShot1.png">
+</p>
 
 ---
 
-<p align="center">
-  <!-- license -->
-
-[//]: # (  <a href="https://github.com/brandii-co/jetbrains-nightfall-theme/blob/main/LICENSE">)
-
-[//]: # (   <img alt="GitHub" src="https://img.shields.io/github/license/brandii-co/jetbrains-nightfall-theme?colorA=232530&colorB=26BBD9">)
-
-[//]: # (  </a>)
+<p align="left">
+  <img alt="preview" src="assets/ClassShot.png">
 </p>
+
+---
+
+<p align="left">
+  <img alt="preview" src="assets/FunctionShot.png">
+</p>
+
+---
+
+<p align="left">
+  <img alt="preview" src="assets/XMLShot.png">
+</p>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
