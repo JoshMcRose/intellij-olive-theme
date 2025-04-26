@@ -27,6 +27,6 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="d5477223-bf3a-4fd6-9738-2a18fa0ccf7b" path="/olive.theme.json"/>
+        <themeProvider id="d5477223-bf3a-4fd6-9738-2a18fa0ccf7b" path="/Olive.theme.json"/>
     </extensions>
 </idea-plugin>

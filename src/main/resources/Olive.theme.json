@@ -2,7 +2,7 @@
     "name": "olive",
     "dark": true,
     "author": "joshmcrose",
-    "editorScheme": "/olive.xml",
+    "editorScheme": "/Olive.xml",
 
     "colors": {
         "md_theme_dark_primary": "#B7D167",
@@ -165,26 +165,26 @@
         "Button.default.startBorderColor": "selectionBackground",
         "Button.disabledBorderColor": "selectionBackground",
         "Button.disabledText": "#abb2bf4d",
-        "Button.endBackground": "backgroundAlt",
+        "Button.endBackground": "background1",
         "Button.endBorderColor": "selectionBackground",
         "Button.focusedBorderColor": "#6c6f931a",
         "Button.foreground": "#7F9AB3",
         "Button.shadowColor": "#00000000",
-        "Button.startBackground": "backgroundAlt",
+        "Button.startBackground": "background1",
         "Button.startBorderColor": "selectionBackground",
 
         "CheckBoxMenuItem.acceleratorSelectionForeground": "foregroundAlt3",
 
-        "ComboBox.ArrowButton.background": "backgroundAlt",
+        "ComboBox.ArrowButton.background": "background1",
         "ComboBox.ArrowButton.disabledIconColor": "#57628580",
         "ComboBox.ArrowButton.iconColor": "#6c6f93",
-        "ComboBox.ArrowButton.nonEditableBackground": "backgroundAlt",
-        "ComboBox.background": "backgroundAlt",
+        "ComboBox.ArrowButton.nonEditableBackground": "background1",
+        "ComboBox.background": "background1",
         "ComboBox.modifiedItemForeground": "foregroundAlt3",
-        "ComboBox.nonEditableBackground": "backgroundAlt",
+        "ComboBox.nonEditableBackground": "background1",
         "ComboBox.selectionBackground": "#2e303e",
 
-        "ComboBoxButton.background": "backgroundAlt",
+        "ComboBoxButton.background": "background1",
 
         "CompletionPopup": {
             "matchForeground": "custom1",
@@ -244,13 +244,13 @@
 
         "MenuItem.disabledForeground": "#abb2bf80",
 
-        "Notification.ToolWindow.errorBackground": "backgroundAlt",
+        "Notification.ToolWindow.errorBackground": "background1",
         "Notification.ToolWindow.errorBorderColor": "#ff5554",
         "Notification.ToolWindow.errorForeground": "foregroundBright1",
         "Notification.ToolWindow.informativeBackground": "background1",
         "Notification.ToolWindow.informativeBorderColor": "#50fa7b",
         "Notification.ToolWindow.informativeForeground": "foregroundBright1",
-        "Notification.ToolWindow.warningBackground": "backgroundAlt",
+        "Notification.ToolWindow.warningBackground": "background1",
         "Notification.ToolWindow.warningBorderColor": "#ffb86c",
         "Notification.ToolWindow.warningForeground": "foregroundBright1",
         "Notification.background": "background",
@@ -259,7 +259,7 @@
         "NotificationsToolwindow.newNotification.background": "selectionBackground",
         "NotificationsToolwindow.newNotification.hoverBackground": "hoverBackground",
         "NotificationsToolwindow.Notification.hoverBackground": "hoverBackground",
-        "Notification.errorBackground": "backgroundAlt",
+        "Notification.errorBackground": "background1",
         "Notification.errorBorderColor": "#ff5554",
         "Notification.errorForeground": "foregroundBright1",
 
