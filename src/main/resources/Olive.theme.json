@@ -220,6 +220,9 @@
         "EditorTabs.underlineHeight": 2,
         "EditorTabs.underlinedTabBackground": "selectionBackground",
         "EditorTabs.hoverBackground": "hoverBackground",
+        "EditorTabs.hoverInactiveBackground": "hoverBackground",
+        "EditorTabs.hoverSelectedBackground": "hoverBackground",
+        "EditorTabs.hoverSelectedInactiveBackground": "hoverBackground",
 
         "FileColor.Blue": "#0B3841",
         "FileColor.Green": "#0C402E",
