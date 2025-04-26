@@ -2,7 +2,7 @@
 pluginGroup = "io.github.joshmcrose"
 pluginName = "intellij-olive-theme"
 pluginRepositoryUrl = "https://github.com/joshmcrose/intellij-olive-theme"
-version = "1.1.0"
+version = "1.2.0"
 pluginSinceBuild = "242"
 pluginUntilBuild = "293.*"
 platformType = "IC"
