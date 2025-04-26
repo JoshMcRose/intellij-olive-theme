@@ -8,6 +8,7 @@
 - Update Tree selection colors
 - Updates DragAndDrop rowBackground color
 - Adds hover background attributes to EditorTabs
+- Fixes menu selection colors outside of editor
 
 ## [1.1.0]
 
