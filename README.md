@@ -10,8 +10,8 @@
 
 <p align="center">
   <!-- Release version -->
-  <a href="">
-    <img alt="JetBrains Plugins" src="https://img.shields.io/jetbrains/plugin/v/16142?colorA=B7D167&label=release&colorB=3C4D00&style=plastic">
+  <a href="https://plugins.jetbrains.com/plugin/27196-olive-theme">
+    <img alt="JetBrains Plugins" src="https://img.shields.io/jetbrains/plugin/v/27196?colorA=B7D167&label=release&colorB=3C4D00&style=plastic">
   </a>
 </p>
 
