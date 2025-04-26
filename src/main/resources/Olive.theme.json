@@ -236,7 +236,7 @@
         "Link.pressedForeground": "border4",
         "Link.visitedForeground": "border4",
 
-        "List.background": "backgroundAlt",
+        "List.background": "background1",
 
         "Menu.background": "background1",
         "Menu.borderColor": "border2",
