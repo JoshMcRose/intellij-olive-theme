@@ -1,6 +1,6 @@
 [versions]
 pluginGroup = "io.github.joshmcrose"
-pluginName = "intellij-olive-theme"
+pluginID = "intellij-olive-theme"
 pluginRepositoryUrl = "https://github.com/joshmcrose/intellij-olive-theme"
 version = "1.2.0"
 pluginSinceBuild = "242"

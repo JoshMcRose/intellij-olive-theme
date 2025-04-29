@@ -1,6 +1,5 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     id("java")
@@ -33,6 +32,7 @@ dependencies {
 
 intellijPlatform {
     pluginConfiguration {
+        id = libs.versions.pluginID
         name = "Olive Theme"
         version = libs.versions.version
 
