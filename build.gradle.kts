@@ -75,6 +75,11 @@ intellijPlatform {
         password = providers.environmentVariable("PRIVATE_KEY_PASSWORD")
     }
 
+    publishing {
+        token = providers.environmentVariable("PUBLISH_TOKEN")
+        channels = providers.gradleProperty("pluginVersion").map { listOf(it.substringAfter('-', "").substringBefore('.').ifEmpty { "default" }) }
+    }
+
     pluginVerification {
         ides {
             recommended()
@@ -94,7 +99,5 @@ tasks {
 
     publishPlugin {
         dependsOn(patchChangelog)
-        token = providers.environmentVariable("PUBLISH_TOKEN")
-        channels = providers.gradleProperty("pluginVersion").map { listOf(it.substringAfter('-', "").substringBefore('.').ifEmpty { "default" }) }
     }
 }
