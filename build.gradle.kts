@@ -10,6 +10,7 @@ plugins {
     alias(libs.plugins.gradleIntelliJPlugin)
     alias(libs.plugins.changelog)
     alias(libs.plugins.qodana)
+    alias(libs.plugins.kover)
 }
 
 group = getProvider("pluginGroup")
@@ -92,6 +93,16 @@ changelog {
     repositoryUrl = getProvider("pluginRepositoryUrl")
 }
 
+kover {
+    reports {
+        total {
+            xml {
+                onCheck = true
+            }
+        }
+    }
+}
+
 tasks {
     wrapper {
         gradleVersion = getProvider("gradleVersion")
@@ -99,5 +110,26 @@ tasks {
 
     publishPlugin {
         dependsOn(patchChangelog)
+    }
+}
+
+intellijPlatformTesting {
+    runIde {
+        register("runIdeForUiTests") {
+            task {
+                jvmArgumentProviders += CommandLineArgumentProvider {
+                    listOf(
+                        "-Drobot-server.port=8082",
+                        "-Dide.mac.message.dialogs.as.sheets=false",
+                        "-Djb.privacy.policy.text=<!--999.999-->",
+                        "-Djb.consents.confirmation.enabled=false",
+                    )
+                }
+            }
+
+            plugins {
+                robotServerPlugin()
+            }
+        }
     }
 }
