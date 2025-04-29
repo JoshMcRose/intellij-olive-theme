@@ -19,8 +19,3 @@
 ## [1.0.0]
 
 - initial release
-
-[Unreleased]: https://github.com/JoshMcRose/intellij-olive-theme/compare/v1.2.0...HEAD
-[1.2.0]: https://github.com/JoshMcRose/intellij-olive-theme/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/JoshMcRose/intellij-olive-theme/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/JoshMcRose/intellij-olive-theme/commits/v1.0.0
