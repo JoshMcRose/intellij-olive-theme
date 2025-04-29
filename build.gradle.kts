@@ -1,5 +1,8 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+
+fun getProvider(name: String) = providers.gradleProperty(name).get()
 
 plugins {
     id("java")
@@ -9,8 +12,8 @@ plugins {
     alias(libs.plugins.qodana)
 }
 
-group = libs.versions.pluginGroup.get()
-version = libs.versions.version.get()
+group = getProvider("pluginGroup")
+version = getProvider("pluginVersion")
 
 kotlin {
     jvmToolchain(21)
@@ -25,16 +28,16 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        create(libs.versions.platformType, libs.versions.platformVersion)
-        testFramework(org.jetbrains.intellij.platform.gradle.TestFrameworkType.Platform)
+        create(getProvider("platformType"), getProvider("platformVersion"))
+        testFramework(TestFrameworkType.Platform)
     }
 }
 
 intellijPlatform {
     pluginConfiguration {
-        id = libs.versions.pluginID
-        name = "Olive Theme"
-        version = libs.versions.version
+        id = getProvider("pluginId")
+        name = getProvider("pluginName")
+        version = getProvider("pluginVersion")
 
         description = providers.fileContents(layout.projectDirectory.file("README.md")).asText.map {
             val start = "<!-- Plugin description -->"
@@ -49,7 +52,7 @@ intellijPlatform {
         }
 
         val changelog = project.changelog
-        changeNotes = libs.versions.version.map { pluginVersion ->
+        changeNotes = providers.gradleProperty("pluginVersion").map { pluginVersion ->
             with(changelog) {
                 renderItem(
                     (getOrNull(pluginVersion) ?: getUnreleased())
@@ -61,8 +64,8 @@ intellijPlatform {
         }
 
         ideaVersion {
-            sinceBuild = libs.versions.pluginSinceBuild.get()
-            untilBuild = libs.versions.pluginUntilBuild.get()
+            sinceBuild = getProvider("pluginSinceBuild")
+            untilBuild = getProvider("pluginUntilBuild")
         }
     }
 
@@ -85,12 +88,12 @@ intellijPlatform {
 
 changelog {
     groups.empty()
-    repositoryUrl = libs.versions.pluginRepositoryUrl.get()
+    repositoryUrl = getProvider("pluginRepositoryUrl")
 }
 
 tasks {
     wrapper {
-        gradleVersion = libs.versions.gradleVersion.get()
+        gradleVersion = getProvider("gradleVersion")
     }
 
     publishPlugin {
