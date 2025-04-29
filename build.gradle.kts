@@ -7,10 +7,15 @@ plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.gradleIntelliJPlugin)
     alias(libs.plugins.changelog)
+    alias(libs.plugins.qodana)
 }
 
 group = libs.versions.pluginGroup.get()
 version = libs.versions.version.get()
+
+kotlin {
+    jvmToolchain(21)
+}
 
 repositories {
     mavenCentral()
@@ -19,26 +24,15 @@ repositories {
     }
 }
 
-// Configure Gradle IntelliJ Plugin
-// Read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
 dependencies {
     intellijPlatform {
         create(libs.versions.platformType, libs.versions.platformVersion)
         testFramework(org.jetbrains.intellij.platform.gradle.TestFrameworkType.Platform)
-
-        // Add necessary plugin dependencies for compilation here, example:
-        // bundledPlugin("com.intellij.java")
     }
-}
-
-changelog {
-    groups.empty()
-    repositoryUrl = libs.versions.pluginRepositoryUrl.get()
 }
 
 intellijPlatform {
     pluginConfiguration {
-        id = libs.versions.pluginName
         name = "Olive Theme"
         version = libs.versions.version
 
@@ -54,8 +48,7 @@ intellijPlatform {
             }
         }
 
-        val changelog = project.changelog // local variable for configuration cache compatibility
-        // Get the latest available change notes from the changelog file
+        val changelog = project.changelog
         changeNotes = libs.versions.version.map { pluginVersion ->
             with(changelog) {
                 renderItem(
@@ -71,12 +64,6 @@ intellijPlatform {
             sinceBuild = libs.versions.pluginSinceBuild.get()
             untilBuild = libs.versions.pluginUntilBuild.get()
         }
-
-        vendor {
-            name = "Josh Rose"
-            email = "josh.rose@gmail.com"
-            url = "https://github.com/joshmcrose"
-        }
     }
 
     signing {
@@ -88,15 +75,25 @@ intellijPlatform {
     publishing {
         token = providers.environmentVariable("INTELLIJ_PUBLISHING_TOKEN")
     }
+
+    pluginVerification {
+        ides {
+            recommended()
+        }
+    }
+}
+
+changelog {
+    groups.empty()
+    repositoryUrl = libs.versions.pluginRepositoryUrl.get()
 }
 
 tasks {
-    // Set the JVM compatibility versions
-    withType<JavaCompile> {
-        sourceCompatibility = "21"
-        targetCompatibility = "21"
+    wrapper {
+        gradleVersion = libs.versions.gradleVersion.get()
     }
-    withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        compilerOptions.jvmTarget.set(JvmTarget.JVM_21)
+
+    publishPlugin {
+        dependsOn(patchChangelog)
     }
 }

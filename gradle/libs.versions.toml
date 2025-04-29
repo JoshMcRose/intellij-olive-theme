@@ -4,14 +4,17 @@ pluginName = "intellij-olive-theme"
 pluginRepositoryUrl = "https://github.com/joshmcrose/intellij-olive-theme"
 version = "1.2.0"
 pluginSinceBuild = "242"
-pluginUntilBuild = "293.*"
+pluginUntilBuild = "252.*"
 platformType = "IC"
 platformVersion = "2025.1"
 kotlin = "2.1.10"
-changelog = "2.2.0"
+gradleVersion = "8.12.1"
+changelog = "2.2.1"
 gradleIntelliJPlugin = "2.5.0"
+qodana = "2024.3.4"
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
 gradleIntelliJPlugin = { id = "org.jetbrains.intellij.platform", version.ref = "gradleIntelliJPlugin" }
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+qodana = { id = "org.jetbrains.qodana", version.ref = "qodana" }

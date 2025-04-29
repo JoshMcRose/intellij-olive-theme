@@ -7,7 +7,6 @@
 ---
 
 <!-- Plugin description -->
-
 <p align="center">
   <!-- Release version -->
   <a href="https://plugins.jetbrains.com/plugin/27196-olive-theme">
@@ -19,6 +18,7 @@
 <p align="center">
   <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot.png">
 </p>
+<!-- Plugin description end -->
 
 ## Supported Languages and File Types
 <ul>
@@ -33,8 +33,6 @@
 <li>Markdown</li>
 </ul>
 <p>For additional language support, feel free to open an issue.</p>
-
-<!-- Plugin description end -->
 
 ## Installation
 
