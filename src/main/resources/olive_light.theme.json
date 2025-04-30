@@ -2,38 +2,478 @@
     "name": "Olive Light",
     "dark": false,
     "author": "joshmcrose",
-    "editorScheme": "",
+    "editorScheme": "/oliveLight.xml",
 
     "colors": {
-        "primaryLight": "#556523",
-        "onPrimaryLight": "#FFFFFF",
-        "primaryContainerLight": "#D8EB9A",
-        "onPrimaryContainerLight": "#3E4C0C",
-        "onSecondaryLight": "#FFFFFF",
-        "tertiaryLight": "#3A665E",
-        "onTertiaryContainerLight": "#204E47",
-        "errorLight": "#BA1A1A",
-        "backgroundLight": "#FBFAED",
-        "onBackgroundLight": "#1B1C15",
-        "surfaceVariantLight": "#E3E4D3",
-        "onSurfaceVariantLight": "#46483C",
-        "outlineLight": "#76786B",
-        "outlineVariantLight": "#C7C8B8",
-        "scrimLight": "#000000",
-        "inverseSurfaceLight": "#303129",
-        "inverseOnSurfaceLight": "#F2F1E5",
-        "inversePrimaryLight": "#BCCF81",
-        "surfaceDimLight": "#DBDBCF",
-        "surfaceContainerLowLight": "#F5F4E8",
-        "surfaceContainerLight": "#EFEEE2",
-        "surfaceContainerHighLight": "#E9E9DD",
-        "surfaceContainerHighestLight": "#E4E3D7"
+        "md_theme_light_primary": "#556523",
+        "md_theme_light_onPrimary": "#FFFFFF",
+        "md_theme_light_primaryContainer": "#D8EB9A",
+        "md_theme_light_onPrimaryContainer": "#3E4C0C",
+        "md_theme_light_onSecondary": "#FFFFFF",
+        "md_theme_light_secondaryContainer": "#E0E6C4",
+        "md_theme_light_onSecondaryContainer": "#434930",
+        "md_theme_light_tertiary": "#3A665E",
+        "md_theme_light_onTertiaryContainer": "#204E47",
+        "md_theme_light_error": "#BA1A1A",
+        "md_theme_light_background": "#FBFAED",
+        "md_theme_light_onBackground": "#1B1C15",
+        "md_theme_light_surfaceVariant": "#E3E4D3",
+        "md_theme_light_onSurfaceVariant": "#46483C",
+        "md_theme_light_outline": "#76786B",
+        "md_theme_light_inversePrimary": "#BCCF81",
+        "md_theme_light_shadow": "#000000",
+
+        "oldForeground": "#1B1C15",
+        "foregroundBright1": "#1B1C15",
+        "foregroundBright2": "#46483C",
+        "foregroundMain": "#46483C",
+        "foregroundDim1": "#46483C4D",
+        "foregroundDim2": "#46483C80",
+        "foregroundInfo": "#76786B",
+        "foregroundAlt1": "#3A665E",
+        "foregroundAlt2": "#204E47",
+        "foregroundAlt3": "#556523",
+        "foregroundAlt4": "#3E4C0C",
+
+        "background1": "#FBFAED",
+        "background2": "#E3E4D34D",
+        "backgroundAlt": "#E3E4D3",
+
+        "shadow": "#000000",
+        "accent": "#D8EB9A",
+        "accentAlt": "#556523",
+
+        "error": "#BA1A1A",
+
+        "border0": "#FBFAED",
+        "border1": "#E3E4D3",
+        "border2": "#D8EB9A",
+        "border3": "#FFFFFF",
+        "border4": "#BCCF81",
+
+        "accentColor1": "#556523",
+        "accentColor2": "#3A665E",
+        "accentColor3": "#3E4C0C",
+
+        "hoverBackground": "#FFFFFF",
+        "selectionBackground": "#D8EB9A",
+        "selectionInactiveBackground": "#D8EB9A",
+        "selectionBackgroundAlt": "#55652310",
+        "selectionInactiveBackgroundAlt": "#55652310",
+        "selectionBackgroundAlt1": "#55652320",
+        "selectionInactiveBackgroundAlt1": "#55652320",
+        "borderColor": "#E3E4D3",
+        "separatorColor": "#D8EB9A",
+
+        "custom1": "#556523",
+        "custom2": "#D8EB9A",
+
+        "test1": "#FCFB00",
+        "test2": "#2D00FC",
+
+        "alpha-high": "#000000e6",
+        "alpha-highMed": "#000000b3",
+        "alpha-med": "#00000080",
+        "alpha-medLow": "#0000004d",
+        "alpha-medLower": "#00000030",
+        "alpha-medLowest": "#00000025",
+        "alpha-low": "#0000001a",
+        "alpha-lower": "#00000010"
     },
 
     "ui": {
         "*": {
-
+            "arc": "7",
+            "foreground": "#46483C",
+            "background": "background1",
+            "infoForeground": "border4",
+            "selectionForeground": "foregroundBright1",
+            "selectionInactiveForeground": "foregroundBright1",
+            "selectionBackground": "selectionBackgroundAlt1",
+            "selectionInactiveBackground": "selectionBackgroundAlt1",
+            "inactiveBackground": "background1",
+            "disabledBackground": "background1",
+            "borderColor": "borderColor",
+            "separatorColor": "separatorColor"
         },
 
+        "MenuBar.highlight": "foregroundBright1",
+        "Slider.highlight": "foregroundBright1",
+        "CheckBox.disabledText": "#76786B",
+        "CheckBox.select": "#76786B",
+        "CheckBoxMenuItem.disabledForeground": "#76786B",
+        "CheckBoxMenuItem.acceleratorForeground": "#46483C",
+        "ComboBox.disabledForeground": "#76786B",
+        "DragAndDrop.areaForeground": "#76786B",
+        "EditorPane.inactiveForeground": "#76786B",
+        "Label.selectedForeground": "#76786B",
+        "Menu.acceleratorSelectionForeground": "#46483C",
+        "Menu.disabledForeground": "#76786B",
+        "MenuItem.acceleratorForeground": "#76786B",
+        "OptionPane.messageForeground": "#76786B",
+        "PopupMenu.translucentBackground": "#E3E4D3",
+        "RadioButton.disabledText": "#76786B",
+        "RadioButtonMenuItem.acceleratorSelectionForeground": "#46483C",
+        "RadioButtonMenuItem.disabledForeground": "#76786B",
+        "Slider.tickColor": "#76786B",
+        "SplitPane.highlight": "#E3E4D3",
+        "SplitPaneDivider.draggingColor": "#E3E4D3",
+        "TabbedPane.disabledForeground": "#76786B",
+        "TabbedPane.disabledUnderlineColor": "#76786B",
+        "TextField.highlight": "foregroundBright1",
+        "textText": "#46483C",
+        "TitledBorder.titleColor": "#76786B",
+        "ToggleButton.disabledText": "#76786B",
+        "ToolTip.shortcutForeground": "#76786B",
+        "ToolWindow.HeaderTab.selectedInactiveBackground": "#E3E4D3",
+        "ToolWindow.Button.selectedForeground": "foregroundBright1",
+        "window": "#E3E4D3",
+        "windowBorder": "#46483C",
+        "windowText": "#46483C",
+
+        "RunWidget.foreground": "#46483C",
+        "RunWidget.runningBackground": "#D8EB9A",
+        "RunWidget.stopBackground": "#FFB4AB",
+
+
+        "ActionButton.hoverBackground": "hoverBackground",
+        "ActionButton.hoverBorderColor": "hoverBackground",
+        "ActionButton.pressedBackground": "hoverBackground",
+        "ActionButton.pressedBorderColor": "hoverBackground",
+
+        "Borders.ContrastBorderColor": "borderColor",
+        "Borders.color": "borderColor",
+
+        "Button.default.endBackground": "#55652330",
+        "Button.default.endBorderColor": "selectionBackground",
+        "Button.default.focusColor": "#5565231a",
+        "Button.default.focusedBorderColor": "#5565231a",
+        "Button.default.foreground": "#46483C",
+        "Button.default.shadowColor": "#00000000",
+        "Button.default.startBackground": "#55652330",
+        "Button.default.startBorderColor": "selectionBackground",
+        "Button.disabledBorderColor": "selectionBackground",
+        "Button.disabledText": "#46483C4d",
+        "Button.endBackground": "background1",
+        "Button.endBorderColor": "selectionBackground",
+        "Button.focusedBorderColor": "#5565231a",
+        "Button.foreground": "#46483C",
+        "Button.shadowColor": "#00000000",
+        "Button.startBackground": "background1",
+        "Button.startBorderColor": "selectionBackground",
+
+        "CheckBoxMenuItem.acceleratorSelectionForeground": "foregroundAlt3",
+
+        "ComboBox.ArrowButton.background": "background1",
+        "ComboBox.ArrowButton.disabledIconColor": "#46483C80",
+        "ComboBox.ArrowButton.iconColor": "#556523",
+        "ComboBox.ArrowButton.nonEditableBackground": "background1",
+        "ComboBox.background": "background1",
+        "ComboBox.modifiedItemForeground": "foregroundAlt3",
+        "ComboBox.nonEditableBackground": "background1",
+        "ComboBox.selectionBackground": "#E0E6C4",
+
+        "ComboBoxButton.background": "background1",
+
+        "CompletionPopup": {
+            "matchForeground": "custom1",
+            "selectionBackground": "selectionBackgroundAlt1",
+            "selectionInactiveBackground": "selectionBackgroundAlt1",
+            "selectionInnerInsets.compact": "0,2,0,2"
+        },
+
+        "Component.borderColor": "selectionBackground",
+        "Component.disabledBorderColor": "selectionBackground",
+        "Component.errorFocusColor": "#BA1A1A",
+        "Component.focusColor": "#5565231a",
+        "Component.focusedBorderColor": "selectionBackground",
+        "Component.inactiveErrorFocusColor": "#BA1A1A",
+        "Component.inactiveWarningFocusColor": "#A0A847",
+        "Component.warningFocusColor": "#A0A847",
+
+        "Counter.background": "#55652360",
+        "Counter.foreground": "foregroundMain",
+
+        "DefaultTabs.inactiveUnderlineColor": "custom2",
+
+        "DragAndDrop.areaBackground": "#E0E6C460",
+        "DragAndDrop.borderColor": "selectionBackground",
+        "DragAndDrop.rowBackground": "selectionBackgroundAlt1",
+
+        "Editor.background": "background1",
+        "Editor.shortcutForeground": "custom1",
+
+        "EditorTabs.background": "background2",
+        "EditorTabs.inactiveUnderlineColor": "custom2",
+        "EditorTabs.underlineColor": "custom1",
+        "EditorTabs.underlineHeight": 2,
+        "EditorTabs.underlinedTabBackground": "selectionBackground",
+        "EditorTabs.hoverBackground": "hoverBackground",
+        "EditorTabs.hoverInactiveBackground": "hoverBackground",
+        "EditorTabs.hoverSelectedBackground": "hoverBackground",
+        "EditorTabs.hoverSelectedInactiveBackground": "hoverBackground",
+
+        "FileColor.Blue": "#E7F1F5",
+        "FileColor.Green": "#E8F5EF",
+        "FileColor.Orange": "#F5EFED",
+        "FileColor.Rose": "#F5EBEE",
+        "FileColor.Violet": "#F2EEF5",
+        "FileColor.Yellow": "#F5F1E8",
+
+        "Label.disabledForeground": "#46483C80",
+        "Label.errorForeground": "#BA1A1A",
+
+        "Link.activeForeground": "border4",
+        "Link.hoverForeground": "border4",
+        "Link.pressedForeground": "border4",
+        "Link.visitedForeground": "border4",
+
+        "List.background": "background1",
+
+        "Menu.background": "background1",
+        "Menu.borderColor": "border2",
+        "Menu.selectionBackground": "selectionBackgroundAlt1",
+
+        "MenuItem.disabledForeground": "#46483C80",
+
+        "Notification.ToolWindow.errorBackground": "background1",
+        "Notification.ToolWindow.errorBorderColor": "#BA1A1A",
+        "Notification.ToolWindow.errorForeground": "foregroundBright1",
+        "Notification.ToolWindow.informativeBackground": "background1",
+        "Notification.ToolWindow.informativeBorderColor": "#556523",
+        "Notification.ToolWindow.informativeForeground": "foregroundBright1",
+        "Notification.ToolWindow.warningBackground": "background1",
+        "Notification.ToolWindow.warningBorderColor": "#A0A847",
+        "Notification.ToolWindow.warningForeground": "foregroundBright1",
+        "Notification.background": "background",
+        "Notification.borderColor": "separatorColor",
+        "Notification.foreground": "foregroundAlt2",
+        "NotificationsToolwindow.newNotification.background": "selectionBackground",
+        "NotificationsToolwindow.newNotification.hoverBackground": "hoverBackground",
+        "NotificationsToolwindow.Notification.hoverBackground": "hoverBackground",
+        "Notification.errorBackground": "background1",
+        "Notification.errorBorderColor": "#BA1A1A",
+        "Notification.errorForeground": "foregroundBright1",
+
+        "ParameterInfo.background": "backgroundAlt",
+        "ParameterInfo.borderColor": "border2",
+        "ParameterInfo.currentOverloadBackground": "accent",
+        "ParameterInfo.currentParameterForeground": "foregroundBright1",
+        "ParameterInfo.disabledForeground": "foregroundDim1",
+        "ParameterInfo.foreground": "foregroundMain",
+        "ParameterInfo.infoForeground": "foregroundInfo",
+        "ParameterInfo.lineSeparatorColor": "separatorColor",
+
+        "PasswordField.background": "background1",
+
+        "Plugins.Button.installBorderColor": "selectionBackground",
+        "Plugins.Button.installFillBackground": "selectionBackground",
+        "Plugins.Button.installFillForeground": "foregroundBright1",
+        "Plugins.Button.installForeground": "selectionBackground",
+        "Plugins.Button.updateBackground": "selectionBackground",
+        "Plugins.Button.updateBorderColor": "selectionBackground",
+        "Plugins.Button.updateForeground": "foregroundBright1",
+        "Plugins.SearchField.background": "background1",
+        "Plugins.SectionHeader.background": "#E0E6C480",
+        "Plugins.SectionHeader.foreground": "foregroundBright1",
+        "Plugins.Tab.hoverBackground": "hoverBackground",
+        "Plugins.Tab.selectedBackground": "hoverBackground",
+        "Plugins.Tab.selectedForeground": "foregroundBright1",
+        "Plugins.hoverBackground": "hoverBackground",
+        "Plugins.lightSelectionBackground": "hoverBackground",
+        "Plugins.tagBackground": "background1",
+        "Plugins.tagForeground": "foregroundBright1",
+
+        "Popup.Advertiser.background": "background1",
+        "Popup.Advertiser.borderInsets": "3,8,5,0",
+        "Popup.Advertiser.foreground": "foregroundMain",
+        "Popup.Header.activeBackground": "background1",
+        "Popup.Header.inactiveBackground": "background1",
+        "Popup.Toolbar.borderColor": "borderColor",
+        "Popup.Toolbar.background": "background1",
+        "Popup.borderColor": "borderColor",
+        "Popup.inactiveBorderColor": "borderColor",
+        "Popup.paintBorder": true,
+
+        "PopupMenu.background": "background1",
+
+        "ProgressBar.failedColor": "error",
+        "ProgressBar.failedEndColor": "error",
+        "ProgressBar.indeterminateEndColor": "accentColor2",
+        "ProgressBar.indeterminateStartColor": "foregroundAlt2",
+        "ProgressBar.passedColor": "custom1",
+        "ProgressBar.passedEndColor": "custom1",
+        "ProgressBar.progressColor": "accentColor1",
+        "ProgressBar.trackColor": "selectionBackground",
+
+        "ScrollBar.Mac.Transparent.hoverThumbBorderColor": "#5565231a",
+        "ScrollBar.Mac.Transparent.hoverThumbColor": "#55652330",
+        "ScrollBar.Mac.Transparent.hoverTrackColor": "#E3E4D310",
+        "ScrollBar.Mac.Transparent.thumbBorderColor": "#55652310",
+        "ScrollBar.Mac.Transparent.thumbColor": "#55652325",
+        "ScrollBar.Mac.hoverThumbBorderColor": "#5565231a",
+        "ScrollBar.Mac.hoverThumbColor": "#55652330",
+        "ScrollBar.Mac.thumbBorderColor": "#55652310",
+        "ScrollBar.Mac.thumbColor": "#55652325",
+        "ScrollBar.Transparent.hoverThumbBorderColor": "#5565231a",
+        "ScrollBar.Transparent.hoverThumbColor": "#55652330",
+        "ScrollBar.Transparent.hoverTrackColor": "#E3E4D310",
+        "ScrollBar.Transparent.thumbBorderColor": "#55652310",
+        "ScrollBar.Transparent.thumbColor": "#55652325",
+        "ScrollBar.hoverThumbBorderColor": "#5565231a",
+        "ScrollBar.hoverThumbColor": "#55652330",
+        "ScrollBar.thumbBorderColor": "#55652310",
+        "ScrollBar.thumbColor": "#55652325",
+
+        "SearchEverywhere.Advertiser.background": "background1",
+        "SearchEverywhere.Advertiser.foreground": "foregroundMain",
+        "SearchEverywhere.Header.background": "background1",
+        "SearchEverywhere.SearchField.background": "background1",
+        "SearchEverywhere.Tab.selectedBackground": "accent",
+        "SearchEverywhere.Tab.selectedForeground": "foregroundBright1",
+
+        "SearchMatch.endBackground": "#A0A847",
+        "SearchMatch.startBackground": "#A0A847",
+
+        "Separator.separatorColor": "separatorColor",
+
+        "SidePanel.background": "background1",
+
+        "StatusBar.hoverBackground": "hoverBackground",
+
+        "TabbedPane.contentAreaColor": "hoverBackground",
+        "TabbedPane.focusColor": "hoverBackground",
+        "TabbedPane.hoverColor": "hoverBackground",
+        "TabbedPane.tabSelectionHeight": 1,
+        "TabbedPane.underlineColor": "custom1",
+
+        "Table.dropLineColor": "#46483C",
+        "Table.dropLineShortColor": "#46483C",
+        "Table.focusCellForeground": "#46483C",
+        "Table.gridColor": "separatorColor",
+        "Table.hoverBackground": "hoverBackground",
+        "Table.lightSelectionBackground": "selectionBackground",
+        "Table.lightSelectionForeground": "foregroundBright1",
+        "Table.lightSelectionInactiveBackground": "selectionInactiveBackground",
+        "Table.lightSelectionInactiveForeground": "foregroundBright1",
+        "Table.selectionBackground": "selectionBackground",
+        "Table.selectionForeground": "foregroundBright1",
+        "Table.selectionInactiveForeground": "foregroundBright1",
+        "Table.stripeColor": "background1",
+        "Table.background": "border0",
+        "TableHeader.background": "background1",
+        "TableHeader.bottomSeparatorColor": "separatorColor",
+
+        "TextArea.selectionBackground": "selectionBackground",
+
+        "TextField.background": "background1",
+        "TextField.selectionBackground": "#556523A0",
+        "TextPane.selectionBackground": "#556523A0",
+
+        "EditorPane.selectionBackground": "#556523A0",
+
+        "TitlePane.inactiveInfoForeground": "foregroundInfo",
+
+        "ToggleButton.buttonColor": "#46483C",
+        "ToggleButton.offBackground": "border0",
+        "ToggleButton.offForeground": "foregroundAlt3",
+        "ToggleButton.onBackground": "#55652390",
+        "ToggleButton.onForeground": "foregroundBright1",
+
+        "ToolTip.background": "background1",
+        "ToolTip.borderColor": "separatorColor",
+        "ToolTip.foreground": "foregroundMain",
+
+        "ToolWindow.Button.hoverBackground": "hoverBackground",
+        "ToolWindow.Button.selectedBackground": "selectionBackground",
+        "ToolWindow.Header.background": "background1",
+        "ToolWindow.Header.inactiveBackground": "background1",
+        "ToolWindow.HeaderTab.underlineColor": "custom1",
+        "ToolWindow.HeaderTab.underlineHeight": 2,
+        "ToolWindow.HeaderTab.underlinedTabBackground": "accent",
+        "ToolWindow.HeaderTab.underlinedTabInactiveBackground": "accent",
+        "ToolWindow.background": "background1",
+
+        "Tree.hash": "#46483C10",
+        "Tree.hoverBackground": "hoverBackground",
+        "Tree.modifiedItemForeground": "foregroundAlt3",
+        "Tree.selectionBackground": "md_theme_light_onSecondaryContainer",
+        "Tree.selectionInactiveBackground": "md_theme_light_onSecondaryContainer",
+
+        "ValidationTooltip.errorBackground": "#BA1A1A",
+        "ValidationTooltip.errorBorderColor": "#BA1A1A",
+        "ValidationTooltip.warningBackground": "#A0A847",
+        "ValidationTooltip.warningBorderColor": "#A0A847",
+
+        "VersionControl": {
+            "FileHistory": {
+                "Commit": {
+                    "selectedBranchBackground": "backgroundAlt"
+                }
+            },
+            "GitLog": {
+                "headIconColor": "#A0A847",
+                "localBranchIconColor": "#556523",
+                "remoteBranchIconColor": "accentColor2",
+                "tagIconColor": "accentColor1",
+                "otherIconColor": "#3A665E"
+            },
+            "Log": {
+                "Commit": {
+                    "hoveredBackground": "backgroundAlt",
+                    "currentBranchBackground": "background2"
+                }
+            },
+            "RefLabel": {
+                "foreground": "foregroundBright1"
+            }
+        },
+
+        "WelcomeScreen": {
+            "separatorColor": "separatorColor",
+            "SidePanel": {
+                "background": "background1"
+            },
+            "Projects": {
+                "background": "hoverBackground",
+                "selectionBackground": "backgroundAlt",
+                "selectionInactiveBackground": "backgroundAlt",
+                "actions": {
+                    "background": "hoverBackground"
+                }
+            }
+        }
+    },
+
+    "icons": {
+        "ColorPalette": {
+            "Actions.Blue": "#3B71AF",
+            "Actions.Green": "#238E48",
+            "Actions.Grey": "#46483C",
+            "Actions.GreyInline.Dark": "#46483C",
+            "Actions.GreyInline": "#46483C",
+            "Actions.Red": "#BA1A1A",
+            "Actions.Yellow": "#A0A847",
+            "Objects.Blue": "#3B71AF",
+            "Objects.Green": "#238E48",
+            "Objects.GreenAndroid": "#238E48",
+            "Objects.Grey": "#46483C",
+            "Objects.Pink": "#A8487F",
+            "Objects.Purple": "#7E5CAE",
+            "Objects.Red": "#BA1A1A",
+            "Objects.RedStatus": "#BA1A1A",
+            "Objects.Yellow": "#A0A847",
+            "Objects.YellowDark": "#A0A847",
+            "Objects.BlackText": "#1B1C15",
+            "Checkbox.Foreground.Selected.Dark": "#1B1C15",
+            "Checkbox.Border.Default.Dark": "#5565234D",
+            "Checkbox.Border.Selected.Dark": "#5565234D",
+            "Checkbox.Border.Disabled.Dark": "#5565231A",
+            "Checkbox.Background.Default.Dark": "#FBFAED",
+            "Checkbox.Background.Disabled.Dark": "#FBFAED80",
+            "Checkbox.Focus.Wide.Dark": "#5565231A",
+            "Checkbox.Focus.Thin.Selected.Dark": "#5565231A",
+            "Checkbox.Focus.Thin.Default.Dark": "#5565231A"
+        }
     }
 }
