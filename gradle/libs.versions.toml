@@ -3,11 +3,11 @@ kotlin = "2.1.10"
 changelog = "2.2.1"
 gradleIntelliJPlugin = "2.5.0"
 qodana = "2024.3.4"
-kov = "0.9.1"
+kover = "0.9.1"
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
 gradleIntelliJPlugin = { id = "org.jetbrains.intellij.platform", version.ref = "gradleIntelliJPlugin" }
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 qodana = { id = "org.jetbrains.qodana", version.ref = "qodana" }
-kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kov" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
