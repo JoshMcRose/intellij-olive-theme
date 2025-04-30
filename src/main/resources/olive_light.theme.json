@@ -1,0 +1,39 @@
+{
+    "name": "Olive Light",
+    "dark": false,
+    "author": "joshmcrose",
+    "editorScheme": "",
+
+    "colors": {
+        "primaryLight": "#556523",
+        "onPrimaryLight": "#FFFFFF",
+        "primaryContainerLight": "#D8EB9A",
+        "onPrimaryContainerLight": "#3E4C0C",
+        "onSecondaryLight": "#FFFFFF",
+        "tertiaryLight": "#3A665E",
+        "onTertiaryContainerLight": "#204E47",
+        "errorLight": "#BA1A1A",
+        "backgroundLight": "#FBFAED",
+        "onBackgroundLight": "#1B1C15",
+        "surfaceVariantLight": "#E3E4D3",
+        "onSurfaceVariantLight": "#46483C",
+        "outlineLight": "#76786B",
+        "outlineVariantLight": "#C7C8B8",
+        "scrimLight": "#000000",
+        "inverseSurfaceLight": "#303129",
+        "inverseOnSurfaceLight": "#F2F1E5",
+        "inversePrimaryLight": "#BCCF81",
+        "surfaceDimLight": "#DBDBCF",
+        "surfaceContainerLowLight": "#F5F4E8",
+        "surfaceContainerLight": "#EFEEE2",
+        "surfaceContainerHighLight": "#E9E9DD",
+        "surfaceContainerHighestLight": "#E4E3D7"
+    },
+
+    "ui": {
+        "*": {
+
+        },
+
+    }
+}
