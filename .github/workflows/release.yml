@@ -82,6 +82,7 @@ jobs:
           git config user.name "GitHub Action"
 
           git checkout -b $BRANCH
+          git add .
           git commit -am "Changelog update - $VERSION"
           git push --set-upstream origin $BRANCH
           

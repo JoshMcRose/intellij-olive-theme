@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.2.1]
+
+### Fixed
+
+- Fixes CI Workflow
+
 ## [1.2.0]
 
 ### Added
@@ -18,5 +24,6 @@
 
 - Fixes menu selection colors outside of editor
 
-[Unreleased]: https://github.com/joshmcrose/intellij-olive-theme/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/joshmcrose/intellij-olive-theme/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/joshmcrose/intellij-olive-theme/commits/v1.2.1
 [1.2.0]: https://github.com/joshmcrose/intellij-olive-theme/commits/v1.2.0
