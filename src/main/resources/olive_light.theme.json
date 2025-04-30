@@ -223,10 +223,10 @@
         "Label.disabledForeground": "#46483C80",
         "Label.errorForeground": "#BA1A1A",
 
-        "Link.activeForeground": "border4",
-        "Link.hoverForeground": "border4",
-        "Link.pressedForeground": "border4",
-        "Link.visitedForeground": "border4",
+        "Link.activeForeground": "custom1",
+        "Link.hoverForeground": "custom1",
+        "Link.pressedForeground": "custom1",
+        "Link.visitedForeground": "custom1",
 
         "List.background": "background1",
 
@@ -397,8 +397,8 @@
         "Tree.hash": "#46483C10",
         "Tree.hoverBackground": "hoverBackground",
         "Tree.modifiedItemForeground": "foregroundAlt3",
-        "Tree.selectionBackground": "md_theme_light_onSecondaryContainer",
-        "Tree.selectionInactiveBackground": "md_theme_light_onSecondaryContainer",
+        "Tree.selectionBackground": "md_theme_light_secondaryContainer",
+        "Tree.selectionInactiveBackground": "md_theme_light_secondaryContainer",
 
         "ValidationTooltip.errorBackground": "#BA1A1A",
         "ValidationTooltip.errorBorderColor": "#BA1A1A",
