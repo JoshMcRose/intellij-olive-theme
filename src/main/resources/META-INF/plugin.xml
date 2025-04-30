@@ -8,5 +8,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="d5477223-bf3a-4fd6-9738-2a18fa0ccf7b" path="/olive_dark.theme.json"/>
+        <themeProvider id="LightThemeProvider" path="/olive_light.theme.json" />
     </extensions>
 </idea-plugin>
