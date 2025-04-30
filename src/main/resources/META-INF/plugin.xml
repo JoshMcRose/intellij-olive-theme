@@ -7,6 +7,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="d5477223-bf3a-4fd6-9738-2a18fa0ccf7b" path="/Olive.theme.json"/>
+        <themeProvider id="d5477223-bf3a-4fd6-9738-2a18fa0ccf7b" path="/olive_dark.theme.json"/>
     </extensions>
 </idea-plugin>

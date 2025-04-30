@@ -1,8 +1,8 @@
 {
-    "name": "olive",
+    "name": "Olive Dark",
     "dark": true,
     "author": "joshmcrose",
-    "editorScheme": "/Olive.xml",
+    "editorScheme": "/oliveDark.xml",
 
     "colors": {
         "md_theme_dark_primary": "#B7D167",

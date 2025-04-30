@@ -4,6 +4,10 @@
 
 ## [1.3.0]
 
+### Changed
+
+- Refactors theme to include light and dark variants.
+
 ## [1.2.2]
 
 ### Fixed
