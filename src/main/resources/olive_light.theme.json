@@ -2,7 +2,7 @@
     "name": "Olive Light",
     "dark": false,
     "author": "joshmcrose",
-    "editorScheme": "/oliveLight.xml",
+    "editorScheme": "/oliveLight2.xml",
 
     "colors": {
         "md_theme_light_primary": "#556523",
@@ -15,9 +15,9 @@
         "md_theme_light_tertiary": "#3A665E",
         "md_theme_light_onTertiaryContainer": "#204E47",
         "md_theme_light_error": "#BA1A1A",
-        "md_theme_light_background": "#FBFAED",
+        "md_theme_light_background": "#F0F5E8",
         "md_theme_light_onBackground": "#1B1C15",
-        "md_theme_light_surfaceVariant": "#E3E4D3",
+        "md_theme_light_surfaceVariant": "#DDE5D0",
         "md_theme_light_onSurfaceVariant": "#46483C",
         "md_theme_light_outline": "#76786B",
         "md_theme_light_inversePrimary": "#BCCF81",
@@ -35,19 +35,19 @@
         "foregroundAlt3": "#556523",
         "foregroundAlt4": "#3E4C0C",
 
-        "background1": "#FBFAED",
-        "background2": "#E3E4D34D",
-        "backgroundAlt": "#E3E4D3",
+        "background1": "#F0F5E8",
+        "background2": "#DDE5D04D",
+        "backgroundAlt": "#DDE5D0",
 
         "shadow": "#000000",
-        "accent": "#D8EB9A",
+        "accent": "#C5D8A5",
         "accentAlt": "#556523",
 
         "error": "#BA1A1A",
 
-        "border0": "#FBFAED",
-        "border1": "#E3E4D3",
-        "border2": "#D8EB9A",
+        "border0": "#F0F5E8",
+        "border1": "#DDE5D0",
+        "border2": "#C5D8A5",
         "border3": "#FFFFFF",
         "border4": "#BCCF81",
 
@@ -55,18 +55,18 @@
         "accentColor2": "#3A665E",
         "accentColor3": "#3E4C0C",
 
-        "hoverBackground": "#FFFFFF",
-        "selectionBackground": "#D8EB9A",
-        "selectionInactiveBackground": "#D8EB9A",
+        "hoverBackground": "#E8F0DB",
+        "selectionBackground": "#C5D8A5",
+        "selectionInactiveBackground": "#C5D8A5",
         "selectionBackgroundAlt": "#55652310",
         "selectionInactiveBackgroundAlt": "#55652310",
         "selectionBackgroundAlt1": "#55652320",
         "selectionInactiveBackgroundAlt1": "#55652320",
-        "borderColor": "#E3E4D3",
-        "separatorColor": "#D8EB9A",
+        "borderColor": "#DDE5D0",
+        "separatorColor": "#C5D8A5",
 
         "custom1": "#556523",
-        "custom2": "#D8EB9A",
+        "custom2": "#C5D8A5",
 
         "test1": "#FCFB00",
         "test2": "#2D00FC",
@@ -111,13 +111,13 @@
         "Menu.disabledForeground": "#76786B",
         "MenuItem.acceleratorForeground": "#76786B",
         "OptionPane.messageForeground": "#76786B",
-        "PopupMenu.translucentBackground": "#E3E4D3",
+        "PopupMenu.translucentBackground": "#DDE5D0",
         "RadioButton.disabledText": "#76786B",
         "RadioButtonMenuItem.acceleratorSelectionForeground": "#46483C",
         "RadioButtonMenuItem.disabledForeground": "#76786B",
         "Slider.tickColor": "#76786B",
-        "SplitPane.highlight": "#E3E4D3",
-        "SplitPaneDivider.draggingColor": "#E3E4D3",
+        "SplitPane.highlight": "#DDE5D0",
+        "SplitPaneDivider.draggingColor": "#DDE5D0",
         "TabbedPane.disabledForeground": "#76786B",
         "TabbedPane.disabledUnderlineColor": "#76786B",
         "TextField.highlight": "foregroundBright1",
@@ -125,14 +125,14 @@
         "TitledBorder.titleColor": "#76786B",
         "ToggleButton.disabledText": "#76786B",
         "ToolTip.shortcutForeground": "#76786B",
-        "ToolWindow.HeaderTab.selectedInactiveBackground": "#E3E4D3",
+        "ToolWindow.HeaderTab.selectedInactiveBackground": "#DDE5D0",
         "ToolWindow.Button.selectedForeground": "foregroundBright1",
-        "window": "#E3E4D3",
+        "window": "#DDE5D0",
         "windowBorder": "#46483C",
         "windowText": "#46483C",
 
         "RunWidget.foreground": "#46483C",
-        "RunWidget.runningBackground": "#D8EB9A",
+        "RunWidget.runningBackground": "#C5D8A5",
         "RunWidget.stopBackground": "#FFB4AB",
 
 
@@ -171,7 +171,7 @@
         "ComboBox.background": "background1",
         "ComboBox.modifiedItemForeground": "foregroundAlt3",
         "ComboBox.nonEditableBackground": "background1",
-        "ComboBox.selectionBackground": "#E0E6C4",
+        "ComboBox.selectionBackground": "#D3E1B8",
 
         "ComboBoxButton.background": "background1",
 
@@ -196,14 +196,14 @@
 
         "DefaultTabs.inactiveUnderlineColor": "custom2",
 
-        "DragAndDrop.areaBackground": "#E0E6C460",
+        "DragAndDrop.areaBackground": "#D3E1B860",
         "DragAndDrop.borderColor": "selectionBackground",
         "DragAndDrop.rowBackground": "selectionBackgroundAlt1",
 
         "Editor.background": "background1",
         "Editor.shortcutForeground": "custom1",
 
-        "EditorTabs.background": "background2",
+        "EditorTabs.background": "backgroundAlt",
         "EditorTabs.inactiveUnderlineColor": "custom2",
         "EditorTabs.underlineColor": "custom1",
         "EditorTabs.underlineHeight": 2,
@@ -274,7 +274,7 @@
         "Plugins.Button.updateBorderColor": "selectionBackground",
         "Plugins.Button.updateForeground": "foregroundBright1",
         "Plugins.SearchField.background": "background1",
-        "Plugins.SectionHeader.background": "#E0E6C480",
+        "Plugins.SectionHeader.background": "#D3E1B880",
         "Plugins.SectionHeader.foreground": "foregroundBright1",
         "Plugins.Tab.hoverBackground": "hoverBackground",
         "Plugins.Tab.selectedBackground": "hoverBackground",
@@ -294,7 +294,6 @@
         "Popup.borderColor": "borderColor",
         "Popup.inactiveBorderColor": "borderColor",
         "Popup.paintBorder": true,
-
         "PopupMenu.background": "background1",
 
         "ProgressBar.failedColor": "error",
@@ -308,7 +307,7 @@
 
         "ScrollBar.Mac.Transparent.hoverThumbBorderColor": "#5565231a",
         "ScrollBar.Mac.Transparent.hoverThumbColor": "#55652330",
-        "ScrollBar.Mac.Transparent.hoverTrackColor": "#E3E4D310",
+        "ScrollBar.Mac.Transparent.hoverTrackColor": "#DDE5D010",
         "ScrollBar.Mac.Transparent.thumbBorderColor": "#55652310",
         "ScrollBar.Mac.Transparent.thumbColor": "#55652325",
         "ScrollBar.Mac.hoverThumbBorderColor": "#5565231a",
@@ -317,7 +316,7 @@
         "ScrollBar.Mac.thumbColor": "#55652325",
         "ScrollBar.Transparent.hoverThumbBorderColor": "#5565231a",
         "ScrollBar.Transparent.hoverThumbColor": "#55652330",
-        "ScrollBar.Transparent.hoverTrackColor": "#E3E4D310",
+        "ScrollBar.Transparent.hoverTrackColor": "#DDE5D010",
         "ScrollBar.Transparent.thumbBorderColor": "#55652310",
         "ScrollBar.Transparent.thumbColor": "#55652325",
         "ScrollBar.hoverThumbBorderColor": "#5565231a",
@@ -428,7 +427,6 @@
                 "foreground": "foregroundBright1"
             }
         },
-
         "WelcomeScreen": {
             "separatorColor": "separatorColor",
             "SidePanel": {
@@ -469,8 +467,8 @@
             "Checkbox.Border.Default.Dark": "#5565234D",
             "Checkbox.Border.Selected.Dark": "#5565234D",
             "Checkbox.Border.Disabled.Dark": "#5565231A",
-            "Checkbox.Background.Default.Dark": "#FBFAED",
-            "Checkbox.Background.Disabled.Dark": "#FBFAED80",
+            "Checkbox.Background.Default.Dark": "#F0F5E8",
+            "Checkbox.Background.Disabled.Dark": "#F0F5E880",
             "Checkbox.Focus.Wide.Dark": "#5565231A",
             "Checkbox.Focus.Thin.Selected.Dark": "#5565231A",
             "Checkbox.Focus.Thin.Default.Dark": "#5565231A"
