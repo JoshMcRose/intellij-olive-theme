@@ -2,11 +2,12 @@
 
 ## [Unreleased]
 
-## [1.3.0]
+## [2.0.0]
 
 ### Changed
 
 - Refactors theme to include light and dark variants.
+- Adds support for more languages.
 
 ## [1.2.2]
 
