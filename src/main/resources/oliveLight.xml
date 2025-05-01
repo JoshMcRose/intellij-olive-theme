@@ -3557,31 +3557,31 @@
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value= />
+                <option name="EFFECT_COLOR" value="A48612" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="Unresolved reference access">
             <value>
-                <option name="FOREGROUND" value= />
-                <option name="EFFECT_COLOR" value= />
+                <option name="FOREGROUND" value="76786B" />
+                <option name="EFFECT_COLOR" value="BA1A1A" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="VELOCITY_KEYWORD">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="VELOCITY_NUMBER">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="A48612" />
             </value>
         </option>
         <option name="VELOCITY_SCRIPTING_BACKGROUND">
             <value>
-                <option name="BACKGROUND" value= />
+                <option name="BACKGROUND" value="F5F4E8" />
             </value>
         </option>
         <option name="WARNING_ATTRIBUTES">
@@ -3603,54 +3603,54 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value= />
-                <option name="ERROR_STRIPE_COLOR" value= />
+                <option name="EFFECT_COLOR" value="BA1A1A" />
+                <option name="ERROR_STRIPE_COLOR" value="BA1A1A" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="7E5CAE" />
             </value>
         </option>
         <option name="XML_NS_PREFIX">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="3A665E" />
             </value>
         </option>
         <option name="XML_PROLOGUE" baseAttributes="TEXT" />
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="0E377B" />
             </value>
         </option>
         <option name="XML_TAG_DATA" baseAttributes="TEXT" />
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="0E377B" />
             </value>
         </option>
         <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="XPATH.KEYWORD">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="XPATH.NUMBER">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="A48612" />
             </value>
         </option>
         <option name="XPATH.STRING">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="238E48" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -3658,37 +3658,37 @@
         <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="YAML_ANCHOR">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="7E5CAE" />
             </value>
         </option>
         <option name="YAML_COMMENT">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="76786B" />
             </value>
         </option>
         <option name="YAML_SCALAR_KEY">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
             </value>
         </option>
         <option name="YAML_SCALAR_LIST">
             <value>
-                <option name="FOREGROUND" value= />
-                <option name="BACKGROUND" value= />
+                <option name="FOREGROUND" value="3A665E" />
+                <option name="BACKGROUND" value="F5F4E8" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="YAML_SCALAR_VALUE">
             <value>
-                <option name="FOREGROUND" value= />
-                <option name="BACKGROUND" value= />
+                <option name="FOREGROUND" value="A48612" />
+                <option name="BACKGROUND" value="F5F4E8" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="YAML_TEXT">
             <value>
-                <option name="FOREGROUND" value= />
-                <option name="BACKGROUND" value= />
+                <option name="FOREGROUND" value="1B1C15" />
+                <option name="BACKGROUND" value="F5F4E8" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -3697,25 +3697,25 @@
         </option>
         <option name="org.toml.BOOLEAN">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="org.toml.DATE">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="A48612" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="org.toml.KEY">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="3A665E" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
         <option name="osmorc.headerName">
             <value>
-                <option name="FOREGROUND" value= />
+                <option name="FOREGROUND" value="556523" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
