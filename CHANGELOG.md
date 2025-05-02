@@ -7,6 +7,7 @@
 ### Added
 
 - Light theme
+- Darker theme -- for users who prefer the original dark theme.
 - Support for more languages.
 
 ### Changed
