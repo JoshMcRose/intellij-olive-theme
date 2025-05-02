@@ -4,10 +4,10 @@
 
 ## [2.0.0]
 
-### Changed
+### Added
 
-- Refactors theme to include light and dark variants.
-- Adds support for more languages.
+- Light theme
+- Support for more languages.
 
 ## [1.2.2]
 

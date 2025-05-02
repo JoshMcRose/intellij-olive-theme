@@ -2,7 +2,7 @@
     "name": "Olive Light",
     "dark": false,
     "author": "joshmcrose",
-    "editorScheme": "/oliveLight2.xml",
+    "editorScheme": "/oliveLight.xml",
 
     "colors": {
         "md_theme_light_primary": "#556523",
