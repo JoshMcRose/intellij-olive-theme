@@ -10,9 +10,9 @@
     <option name="ActionButton.pressedBackground" value="B7D16780" />
     <option name="CARET_COLOR" value="D3EE80" />
     <option name="CARET_ROW_COLOR" value="293500" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1B1C17" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1B2617" />
     <option name="DELETED_LINES_COLOR" value="93000A" />
-    <option name="DOCUMENTATION_COLOR" value="1B1C17" />
+    <option name="DOCUMENTATION_COLOR" value="1B2617" />
     <option name="DOC_COMMENT_GUIDE" value="B7D167" />
     <option name="DOC_COMMENT_LINK" value="5CDB95" />
     <option name="FILESTATUS_ADDED" value="B7D167" />
@@ -36,16 +36,16 @@
     <option name="FILESTATUS_addedOutside" value="D3EE80" />
     <option name="FILESTATUS_changelistConflict" value="FFB4AB" />
     <option name="FILESTATUS_modifiedOutside" value="BCECE2" />
-    <option name="GUTTER_BACKGROUND" value="1B1C17" />
+    <option name="GUTTER_BACKGROUND" value="1B2617" />
     <option name="INDENT_GUIDE" value="46483C50" />
-    <option name="INFORMATION_HINT" value="1B1C17" />
+    <option name="INFORMATION_HINT" value="1B2617" />
     <option name="LINE_NUMBERS_COLOR" value="909284" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="E4E3DB" />
-    <option name="LOOKUP_COLOR" value="1B1C17" />
+    <option name="LOOKUP_COLOR" value="1B2617" />
     <option name="MODIFIED_LINES_COLOR" value="204E47" />
     <option name="NOTIFICATION_BACKGROUND" value="3C4D00" />
     <option name="PROMOTION_PANE" value="46483C" />
-    <option name="QUESTION_HINT" value="1B1C17" />
+    <option name="QUESTION_HINT" value="1B2617" />
     <option name="RIGHT_MARGIN_COLOR" value="3C4D0080" />
     <option name="SELECTED_INDENT_GUIDE" value="516600" />
     <option name="SELECTED_TEARLINE_COLOR" value="516600" />
@@ -60,10 +60,10 @@
     <option name="ScrollBar.Mac.Transparent.trackColor" value="46483C10" />
     <option name="ScrollBar.Mac.hoverThumbBorderColor" value="B7D1671A" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="B7D16730" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="1B1C17" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="1B2617" />
     <option name="ScrollBar.Mac.thumbBorderColor" value="B7D16710" />
     <option name="ScrollBar.Mac.thumbColor" value="B7D16725" />
-    <option name="ScrollBar.Mac.trackColor" value="1B1C17" />
+    <option name="ScrollBar.Mac.trackColor" value="1B2617" />
     <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="B7D1671A" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="B7D16730" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="46483C10" />
@@ -77,8 +77,8 @@
     <option name="TAB_UNDERLINE" value="B7D167" />
     <option name="TAB_UNDERLINE_INACTIVE" value="3C4D00" />
     <option name="TEARLINE_COLOR" value="46483C" />
-    <option name="TOOLTIP" value="1B1C17" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="1B1C17" />
+    <option name="TOOLTIP" value="1B2617" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="1B2617" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="46483C4D" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="46483C" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="B7D16720" />
@@ -86,10 +86,10 @@
     <option name="VISUAL_INDENT_GUIDE" value="C7C8B81A" />
     <option name="WHITESPACES" value="90928490" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="909284" />
-    <option name="md_theme_dark_background" value="1B1C17" />
+    <option name="md_theme_dark_background" value="1B2617" />
     <option name="md_theme_dark_error" value="FFB4AB" />
     <option name="md_theme_dark_errorContainer" value="93000A" />
-    <option name="md_theme_dark_inverseOnSurface" value="1B1C17" />
+    <option name="md_theme_dark_inverseOnSurface" value="1B2617" />
     <option name="md_theme_dark_inversePrimary" value="516600" />
     <option name="md_theme_dark_inverseSurface" value="E4E3DB" />
     <option name="md_theme_dark_onBackground" value="E4E3DB" />
@@ -111,7 +111,7 @@
     <option name="md_theme_dark_secondary" value="C4CAA9" />
     <option name="md_theme_dark_secondaryContainer" value="434930" />
     <option name="md_theme_dark_shadow" value="000000" />
-    <option name="md_theme_dark_surface" value="1B1C17" />
+    <option name="md_theme_dark_surface" value="1B2617" />
     <option name="md_theme_dark_surfaceTint" value="B7D167" />
     <option name="md_theme_dark_surfaceVariant" value="46483C" />
     <option name="md_theme_dark_tertiary" value="A1D0C6" />
@@ -292,7 +292,7 @@
     </option>
     <option name="CONSOLE_OUTPUT">
       <value>
-        <option name="BACKGROUND" value="1b1c17" />
+        <option name="BACKGROUND" value="1B2617" />
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
@@ -3578,7 +3578,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="e4e3db" />
-        <option name="BACKGROUND" value="1b1c17" />
+        <option name="BACKGROUND" value="1B2617"/>
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

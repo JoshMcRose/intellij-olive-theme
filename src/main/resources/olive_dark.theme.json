@@ -33,9 +33,10 @@
         "foregroundAlt3": "#B7D167",
         "foregroundAlt4": "#D3EE80",
 
-        "background1": "#1B1C17",
-        "background2": "#46483C4D",
-        "backgroundAlt": "#46483C",
+        "background1": "#1B2617",
+        "background2": "#46583C4D",
+        "background3": "#333F2B",
+        "backgroundAlt": "#46583C",
 
         "shadow": "#000000",
         "accent": "#3C4D00",
@@ -43,7 +44,7 @@
 
         "error": "#FFB4AB",
 
-        "border0": "#1B1C17",
+        "border0": "#1b2617",
         "border1": "#46483C",
         "border2": "#3C4D00",
         "border3": "#293500",
@@ -201,7 +202,7 @@
         "Editor.background": "background1",
         "Editor.shortcutForeground": "custom1",
 
-        "EditorTabs.background": "background2",
+        "EditorTabs.background": "background3",
         "EditorTabs.inactiveUnderlineColor": "custom2",
         "EditorTabs.underlineColor": "custom1",
         "EditorTabs.underlineHeight": 2,
@@ -467,8 +468,8 @@
             "Checkbox.Border.Default.Dark": "#B7D1674D",
             "Checkbox.Border.Selected.Dark": "#B7D1674D",
             "Checkbox.Border.Disabled.Dark": "#B7D1671A",
-            "Checkbox.Background.Default.Dark": "#1B1C17",
-            "Checkbox.Background.Disabled.Dark": "#1B1C1780",
+            "Checkbox.Background.Default.Dark": "#1b2817",
+            "Checkbox.Background.Disabled.Dark": "#1b281780",
             "Checkbox.Focus.Wide.Dark": "#B7D1671A",
             "Checkbox.Focus.Thin.Selected.Dark": "#B7D1671A",
             "Checkbox.Focus.Thin.Default.Dark": "#B7D1671A"

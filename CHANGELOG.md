@@ -9,6 +9,10 @@
 - Light theme
 - Support for more languages.
 
+### Changed
+
+- Modified background to have a stronger greenish hue for easier viewing in bright environments.
+
 ## [1.2.2]
 
 ### Fixed
