@@ -468,8 +468,8 @@
             "Checkbox.Border.Default.Dark": "#B7D1674D",
             "Checkbox.Border.Selected.Dark": "#B7D1674D",
             "Checkbox.Border.Disabled.Dark": "#B7D1671A",
-            "Checkbox.Background.Default.Dark": "#1b2817",
-            "Checkbox.Background.Disabled.Dark": "#1b281780",
+            "Checkbox.Background.Default.Dark": "#1b2617",
+            "Checkbox.Background.Disabled.Dark": "#1b261780",
             "Checkbox.Focus.Wide.Dark": "#B7D1671A",
             "Checkbox.Focus.Thin.Selected.Dark": "#B7D1671A",
             "Checkbox.Focus.Thin.Default.Dark": "#B7D1671A"
