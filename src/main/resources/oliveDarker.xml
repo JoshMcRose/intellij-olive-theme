@@ -1076,14 +1076,15 @@
                 <option name="FOREGROUND" value="bcece2" />
             </value>
         </option>
-        <option name="JAVA.PRIMITIVE">
-            <value>
-                <option name="FOREGROUND" value="ff9668" />
-            </value>
-        </option>
         <option name="JAVA.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="ff757f" />
+                <option name="FOREGROUND" value="556523" />
+            </value>
+        </option>
+        <option name="JAVA_DOC_TAG">
+            <value>
+                <option name="FOREGROUND" value="b7d167" />
+                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="JS.CONSOLE">
