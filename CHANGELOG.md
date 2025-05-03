@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [2.1.0]
+
+### Changed
+
+- Modified schemas to be more consist across different languages (feedback always welcome!)
+
 ## [2.0.0]
 
 ### Added
