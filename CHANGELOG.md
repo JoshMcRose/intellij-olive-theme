@@ -8,6 +8,10 @@
 
 - Modified schemas to be more consist across different languages (feedback always welcome!)
 
+### Fixed
+
+- Editor Tabs background color in Olive Darker.
+
 ## [2.0.0]
 
 ### Added
