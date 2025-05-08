@@ -20,7 +20,7 @@
 
 <p align="center">A set of themes for IntelliJ IDEA inspired by olives 🍸🫒</p>
 <p align="center">
-  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/DarkerGeneral.png">
 </p>
 <!-- Plugin description end -->
 
@@ -34,25 +34,38 @@
 ## Screenshots
 
 <p align="left">
-  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot1.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/DarkerGeneral.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/ClassShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/DarkerClass.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FunctionShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/DarkGeneral.png">
 </p>
 
 ---
 
 <p align="left">
-  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/XMLShot.png">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/DarkClass.png">
+</p>
+
+
+---
+
+<p align="left">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/LightGeneral.png">
+</p>
+
+---
+
+<p align="left">
+  <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/LightClass.png">
 </p>
 
 <!-- markdownlint-restore -->
