@@ -18,25 +18,11 @@
   </a>
 </p>
 
-<p align="center">A dark theme for IntelliJ IDEA inspired by olives 🍸🫒</p>
+<p align="center">A set of themes for IntelliJ IDEA inspired by olives 🍸🫒</p>
 <p align="center">
   <img alt="preview" src="https://raw.githubusercontent.com/JoshMcRose/JoshMcRose/main/assets/olive/FullScreenShot.png">
 </p>
 <!-- Plugin description end -->
-
-## Supported Languages and File Types
-<ul>
-<li>Kotlin</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>XML</li>
-<li>JSON</li>
-<li>YAML</li>
-<li>TOML</li>
-<li>SQL</li>
-<li>Markdown</li>
-</ul>
-<p>For additional language support, feel free to open an issue.</p>
 
 ## Installation
 
@@ -44,11 +30,6 @@
 
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Olive Theme"</kbd> >
   <kbd>Install</kbd>
-
-- Manually:
-
-  Download the [latest release](https://github.com/JoshMcRose/intellij-olive-theme/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 ## Screenshots
 
