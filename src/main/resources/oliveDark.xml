@@ -1164,7 +1164,7 @@
     </option>
     <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="f3c1ff" />
+        <option name="FOREGROUND" value="4ECDC4" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1308,7 +1308,7 @@
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f3c1ff" />
+        <option name="FOREGROUND" value="4ECDC4" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
