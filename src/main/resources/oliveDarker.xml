@@ -810,7 +810,7 @@
         </option>
         <option name="GO_BUILTIN_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -827,13 +827,13 @@
         </option>
         <option name="GO_EXPORTED_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="GO_EXPORTED_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="GO_FUNCTION_PARAMETER">
@@ -860,12 +860,12 @@
         </option>
         <option name="GO_LOCAL_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="GO_LOCAL_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="GO_METHOD_RECEIVER">
@@ -1215,7 +1215,7 @@
         </option>
         <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1318,12 +1318,12 @@
         </option>
         <option name="KOTLIN_VARIABLE_AS_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="LABEL">
@@ -2779,12 +2779,12 @@
         </option>
         <option name="PHP_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="PHP_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="PHP_INSTANCE_FIELD">
@@ -2794,7 +2794,7 @@
         </option>
         <option name="PHP_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="PHP_INTERFACE">
@@ -2832,7 +2832,7 @@
         </option>
         <option name="PHP_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3164,7 +3164,7 @@
         </option>
         <option name="RUBY_METHOD_NAME">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="RUBY_NTH_REF">
@@ -3180,7 +3180,7 @@
         </option>
         <option name="RUBY_PARAMDEF_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3197,7 +3197,7 @@
         </option>
         <option name="RUBY_SPECIFIC_CALL">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3340,7 +3340,7 @@
         </option>
         <option name="ReSharper.CPP_STATIC_MEMBER_FUNCTION_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3363,7 +3363,7 @@
         </option>
         <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="48BF84" />
             </value>
         </option>
         <option name="ReSharper.FORMAT_STRING_ITEM">
