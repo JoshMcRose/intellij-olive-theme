@@ -123,31 +123,6 @@
         <option name="FOREGROUND" value="b7d167" />
       </value>
     </option>
-    <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
-      <value>
-        <option name="FOREGROUND" value="b7d167" />
-      </value>
-    </option>
-    <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
-      <value>
-        <option name="FOREGROUND" value="d3ee80" />
-      </value>
-    </option>
-    <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
-      <value>
-        <option name="FOREGROUND" value="a1d0c6" />
-      </value>
-    </option>
-    <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
-      <value>
-        <option name="FOREGROUND" value="bcece2" />
-      </value>
-    </option>
-    <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
-      <value>
-        <option name="FOREGROUND" value="c4caa9" />
-      </value>
-    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="APACHE_CONFIG.ARG_LEXEM">
@@ -2919,31 +2894,6 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
-    <option name="RAINBOW_COLOR0">
-      <value>
-        <option name="FOREGROUND" value="bd93f9" />
-      </value>
-    </option>
-    <option name="RAINBOW_COLOR1">
-      <value>
-        <option name="FOREGROUND" value="ff79c6" />
-      </value>
-    </option>
-    <option name="RAINBOW_COLOR2">
-      <value>
-        <option name="FOREGROUND" value="ffb86c" />
-      </value>
-    </option>
-    <option name="RAINBOW_COLOR3">
-      <value>
-        <option name="FOREGROUND" value="50fa7b" />
-      </value>
-    </option>
-    <option name="RAINBOW_COLOR4">
-      <value>
-        <option name="FOREGROUND" value="8be9fd" />
-      </value>
-    </option>
     <option name="RDOC_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="ff757f" />
@@ -3052,31 +3002,6 @@
     <option name="RHTML_SCRIPTLET_START_ID">
       <value>
         <option name="FOREGROUND" value="ff5370" />
-      </value>
-    </option>
-    <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
-      <value>
-        <option name="FOREGROUND" value="b7d167" />
-      </value>
-    </option>
-    <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
-      <value>
-        <option name="FOREGROUND" value="d3ee80" />
-      </value>
-    </option>
-    <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
-      <value>
-        <option name="FOREGROUND" value="a1d0c6" />
-      </value>
-    </option>
-    <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
-      <value>
-        <option name="FOREGROUND" value="bcece2" />
-      </value>
-    </option>
-    <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
-      <value>
-        <option name="FOREGROUND" value="c4caa9" />
       </value>
     </option>
     <option name="RUBY_BAD_CHARACTER">
@@ -3508,56 +3433,6 @@
       <value>
         <option name="FOREGROUND" value="9ec44f" />
         <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
-      <value>
-        <option name="FOREGROUND" value="b7d167" />
-      </value>
-    </option>
-    <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
-      <value>
-        <option name="FOREGROUND" value="d3ee80" />
-      </value>
-    </option>
-    <option name="SQUARE_BRACKETS_RAINBOW_COLOR2">
-      <value>
-        <option name="FOREGROUND" value="a1d0c6" />
-      </value>
-    </option>
-    <option name="SQUARE_BRACKETS_RAINBOW_COLOR3">
-      <value>
-        <option name="FOREGROUND" value="bcece2" />
-      </value>
-    </option>
-    <option name="SQUARE_BRACKETS_RAINBOW_COLOR4">
-      <value>
-        <option name="FOREGROUND" value="c4caa9" />
-      </value>
-    </option>
-    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
-      <value>
-        <option name="FOREGROUND" value="b7d167" />
-      </value>
-    </option>
-    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
-      <value>
-        <option name="FOREGROUND" value="d3ee80" />
-      </value>
-    </option>
-    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
-      <value>
-        <option name="FOREGROUND" value="a1d0c6" />
-      </value>
-    </option>
-    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR3">
-      <value>
-        <option name="FOREGROUND" value="bcece2" />
-      </value>
-    </option>
-    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR4">
-      <value>
-        <option name="FOREGROUND" value="c4caa9" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
