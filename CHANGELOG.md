@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [2.2.0]
+
+### Changed
+
+- Modified function-like variable and dynamic function call editor colors
+- Modified lambda default parameter editor colors
+- Removed Rainbow bracket color defaults to prevent overwriting custom Rainbow bracket colors when using the [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) plugin
+
 ## [2.1.0]
 
 ### Changed
