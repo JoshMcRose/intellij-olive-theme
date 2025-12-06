@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [2.2.1]
+
+### Changed
+
+- Updated platform version to 2025.2
+
 ## [2.2.0]
 
 ### Changed
