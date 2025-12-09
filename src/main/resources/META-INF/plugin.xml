@@ -12,5 +12,6 @@
         <themeProvider id="DarkerThemeProvider" path="/olive_darker.theme.json"/>
         <themeProvider id="IslandDarkerThemeProvider" path="/islands_olive_darker.theme.json"/>
         <themeProvider id="LightThemeProvider" path="/olive_light.theme.json" />
+        <themeProvider id="IslandLightThemeProvider" path="/islands_olive_light.theme.json" />
     </extensions>
 </idea-plugin>

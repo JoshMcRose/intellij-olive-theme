@@ -222,7 +222,7 @@
         "FileColor.Yellow": "#4D3D1F",
 
         "Island.borderColor": "background1",
-        "Island.arc": 20,
+        "Island.arc": 16,
 
         "Label.disabledForeground": "#abb2bf80",
         "Label.errorForeground": "#ff5554",
