@@ -1,9 +1,9 @@
 [versions]
-kotlin = "2.1.10"
-changelog = "2.2.1"
-gradleIntelliJPlugin = "2.5.0"
-qodana = "2024.3.4"
-kover = "0.9.1"
+kotlin = "2.2.21"
+changelog = "2.5.0"
+gradleIntelliJPlugin = "2.10.5"
+qodana = "2025.2.3"
+kover = "0.9.3"
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }

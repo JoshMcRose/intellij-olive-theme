@@ -2,11 +2,12 @@
 
 ## [Unreleased]
 
-## [2.2.1]
+## [3.0.0]
 
 ### Changed
 
-- Updated platform version to 2025.2
+- Updated platform version to 2025.3
+- Adds Island themes
 
 ## [2.2.0]
 

@@ -2,7 +2,7 @@ import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
-fun getProvider(name: String) = providers.gradleProperty(name).get()
+fun getProvider(name: String): String = providers.gradleProperty(name).get()
 
 plugins {
     id("java")
@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        create(getProvider("platformType"), getProvider("platformVersion"))
+        intellijIdea(getProvider("platformVersion"))
         testFramework(TestFrameworkType.Platform)
     }
 }

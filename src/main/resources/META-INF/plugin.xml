@@ -8,6 +8,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="DarkThemeProvider" path="/olive_dark.theme.json"/>
+        <themeProvider id="IslandDarkThemeProvider" path="/islands_olive_dark.theme.json"/>
         <themeProvider id="DarkerThemeProvider" path="/olive_darker.theme.json"/>
         <themeProvider id="LightThemeProvider" path="/olive_light.theme.json" />
     </extensions>
