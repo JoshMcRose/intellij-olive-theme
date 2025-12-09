@@ -4,10 +4,14 @@
 
 ## [3.0.0]
 
-### Changed
+### Added
 
-- Updated platform version to 2025.3
-- Adds Island themes
+- Island themes
+
+### Updated
+
+- Platform version to 2025.3
+- Project dependencies
 
 ## [2.2.0]
 
