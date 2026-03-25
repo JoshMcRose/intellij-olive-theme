@@ -66,7 +66,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild = getProvider("pluginSinceBuild")
-            untilBuild = getProvider("pluginUntilBuild")
+            untilBuild = provider { null }
         }
     }
 

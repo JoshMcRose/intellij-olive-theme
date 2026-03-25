@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [3.1.0]
+
+### Updated
+
+- IntelliJ Platform version to 2026.1
+
 ## [3.0.0]
 
 ### Added
